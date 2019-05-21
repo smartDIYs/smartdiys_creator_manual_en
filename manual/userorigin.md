@@ -1,34 +1,34 @@
-ここでは、ユーザ原点の設定方法について説明します。
+This section explains how to set the user origin.
 
-## ユーザ原点の設定の概要
+## Overview of setting user origin
 
-ユーザ原点の設定を行うと、通常リミットスイッチ付近に設定されている原点をユーザの任意の座標に設定することができます。
-この設定を行うと、加工開始時に機械原点への原点復帰を行いません。
+By setting the user origin, the origin set near the normal limit switch can be set to the user's arbitrary coordinates. If this setting is made, origin return to the machine origin is not performed at the start of machining.
 
-### この機能のご利用シーン
-- 平皿やお盆など、素材の縁に高さがあり、原点復帰を行うとぶつかってしまう場合
-- 位置合わせなどの理由で、加工開始時に原点復帰を行いたくない場合
+### Usage scene of this function
+- When there is height in the edge of the material such as a flat plate or tray, and it is hit when performing origin return
+- When you do not want to perform origin return at the start of processing due to alignment or other reasons
 
-### この機能を利用する上での注意事項
-- 原点復帰は加工機がレーザヘッドの位置を正確に知るために必要な動作です。
-- ユーザ原点モードでは機械原点への原点復帰が行われないため、レーザヘッドの位置に誤差が蓄積されていく可能性があります。**※軸滑りや引っかかり等、機械の調整状態に依存します**。
-- 誤差が大きくなった場合、リミットスイッチなどに接触し、**加工が停止する恐れ** があります。
-- 軸ズレが発生した場合はこのモードを解除し、原点復帰を行なって下さい。
+### Application consideration for this function
+- Origin return is an operation required for the processing machine to accurately know the position of the laser head.
+- In the user origin mode, since the origin return to the machine origin is not performed, accident errors may be accumulated in the position of the laser head. **※ It depends on the adjustment state of the machine such as shaft slip and hook**.
+- If the accident error becomes large, it may touch the limit switch etc. and **the processing may stop**.
+- If an axis shift occurs, cancel this mode and perform origin return.
 
-## ユーザ原点の設定方法
 
-- 原点復帰を行います。
-- 位置確認ボタンをクリックし、位置確認モードに切り替えます。
-- 任意の位置にレーザヘッドを移動するか、数値を入力します。
-- 「ユーザ原点の設定」ボタンをクリックします。
+## How to set user origin
+- Perform origin return.
+- Click the position check button to switch to position check mode.
+- Move the laser head to any position or enter a numerical number.
+- Click the "Set User Origin" button.
+
 
 <p align="center">
 <img alt="UserOrigin" src="./images/userorigin/userorigin.png" style="width:80%">
 </p>
 
-## ユーザ原点の解除方法
-- 位置確認ボタンをクリックし、位置確認モードに切り替えます。
-- 「ユーザ原点の解除」ボタンをクリックします。
+## How to cancel user origin
+- Click the position check button to switch to position check mode.
+- Click the "Cancel User Origin" button.
 
 <p align="center">
 <img alt="ResetUserOrigin" src="./images/userorigin/resetuserorigin.png" style="width:80%">
