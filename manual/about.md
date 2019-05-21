@@ -1,5 +1,4 @@
-SmartDIYs Creator は FABOOL Laserシリーズ対応の加工用ソフトウェアです。
-画像データを取り込んでレイアウトを編集し、レーザパラメータを設定して加工を行うソフトウェアです。
+SmartDIYs Creator is software for machining compatible with FABOOL Laser series. This is software that takes in image data, edits the layout, sets laser parameters, and performs processing.
 
 ---
 
@@ -7,30 +6,32 @@ SmartDIYs Creator は FABOOL Laserシリーズ対応の加工用ソフトウェ�
 <img alt="SmartScreen" src="./images/about/screen.png" style="width:85%">
 </p>
 
-## 製品仕様
-### 対応製品
+## Product Specification
+### Supported products
 FABOOL Laser Mini / FABOOL Laser CO2 / FABOOL Laser DS
 
-### 対応ファイル
+### Supported files
 png / jpg / bmp / gif / tif / svg / dxf
 
-### ソフトウェアの動作要件
+### Software operating requirements
 #### Windows
-- OS Windows 7以降
-- CPU Core i3 2.4Ghz以上
-- RAM：4GB以上
-- HDD：1GB以上の空き容量
+- OS Windows 7 or later
+- CPU Core i3 2.4Ghz or higher
+- RAM：equal to or greater than 4GB
+- HDD：free capacity equal to or more than 1GB
+
 
 #### macOS
-- OS 10.11.6 El capitan以降
-- CPU：Core M 1.1Ghz以上
-- RAM：4GB以上
-- HDD：1GB以上の空き容量
+- OS 10.11.6 El capitan or later
+- CPU：Core M 1.1Ghz or higher
+- RAM：equal to or greater than 4GB
+- HDD：free capacity equal to or more than 1GB
 
-## ご注意
-- 本マニュアルのスクリーンショット等は実際のソフトウェアの表示と異なる場合がございます。
-- 内容に関しては予告無しに更新されることがあります。
-- 本製品の運用を理由とする損失、逸失利益などの請求につきましては、いかなる責任も負いかねますのであらかじめご了承ください。
-- Microsoft Windowsは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。
-- Apple、App Store、Apple ロゴ、Mac、Mac OS、OS X、macOS、iPad、iPhoto、iPod touch、および iTunes は、Apple Inc. の商標です。
-- Adobe、Adobe Illustrator および Photoshop は、 Adobe Systems Incorporatedの米国およびその他の国における登録商標または商標です。
+
+## Document Disclaimer
+- Screen shots, etc. of this manual may differ from the actual display of the software.
+- Contents may be updated without notice.
+- Please note that we cannot accept any responsibility for detriment, lost profits, etc. due to the operation of this product.
+- Microsoft Windows is either a registered trademark or trademark in the United States and / or other countries of Microsoft Corporation in the United States.
+- Apple, App Store, Apple logo, Mac, Mac OS, OS X, macOS, iPad, iPhoto, iPod touch, and iTunes are trademarks of Apple Inc.
+- Adobe, Adobe Illustrator and Photoshop are either a registered trademark or trademark in the United States and / or other countries of Adobe Systems Incorporated.
