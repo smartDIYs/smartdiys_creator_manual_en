@@ -85,5 +85,5 @@ Take out the material from the processing machine and check the processing resul
 When all work has been completed, follow the steps below.
 
 1. Disconnect the USB cable connecting the processing machine and the PC, and turn off the processing machine.
-2. Save the project as needed. Information on current processing data and parameters can be saved as a project.
-3. Close the software main window and exit the software.
+1. Save the project as needed. Information on current processing data and parameters can be saved as a project.
+1. Close the software main window and exit the software.
