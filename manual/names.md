@@ -1,150 +1,151 @@
-## ソフトウェア画面
-本ソフトウェアの基本ウィンドウで、以下の要素から構成されています。
+## Software screen
+This is the basic window of this software and consists of the following elements.
 
 <p align="center">
 <img alt="SmartScreen" src="./images/names/main.png" style="width:70%">
 </p>
 
-#### (A) タイトルバー
-現在のプロジェクトファイルの名称や、最小・最大化ボタン、ソフトウェアの終了ボタンが配置されています。
+#### (A) Title bar
+The name of the current project file, the minimize / maximize button, and the end button of the software are arranged.
 
-#### (B) メニューバ
-メニューを選択することにより、様々な機能を実行させます。
+#### (B) Menu bar
+Select a menu and execute various functions.
 
-#### (C) 加工機コントロールエリア
-加工機との接続状態やエラー内容が表示されます。また、加工機のコントロールは主にここから行います。
+#### (C) Processing machine control area
+The connection status with the processing machine and the error contents are displayed. Also, control of the processing machine is mainly done from here.
 
-#### (D) ツールバー
-グラフィックエリアのコントロールツールが表示されています。
+#### (D) Toolbar
+The graphic area control tool is displayed.
 
-#### (E) プロパティパレット
-グラフィックエリアで選択しているアイテムの位置情報などが表示されます。
+#### (E) Property palette
+The location information of the item selected in the graphic area is displayed.
 
-#### (F) グラフィックエリア
-加工データのレイアウトを行うことができます。
+#### (F) Graphic area
+You can lay out the processing data.
 
-#### (G) アイテムリスト
-加工データを追加したり、加工データの一覧が表示されています。
+#### (G) Item list
+Processing data is added and a list of processing data is displayed.
 
-#### (H) パラメータ設定ウィンドウ
-アイテムリストに表示されているアイテムをクリックすると表示され、対象のアイテムの加工パラメータを設定します。
+#### (H) Parameter setting window
+Click an item displayed in the item list to display and set the processing parameters of the item.
 
 
-## メニューバー
-### ファイル
-- 新しいプロジェクト: 新規プロジェクトを作成します。
-- プロジェクトを開く: 保存されているプロジェクトを開きます。
-- プロジェクトを保存: 現在開いているプロジェクトを保存します。
-- プロジェクトを別名で保存: 現在開いているプロジェクトを別名で保存します。
+## Menu bar
+### file
+- New Project: Create a new project.
+- Open Project: Open a saved project.
+- Save Project: Save the currently open project.
+- Save Project As: Save the currently open project as an alias.
 
-### 編集
-- 元に戻す: プロジェクトの編集状態を1つ前の状態に戻します。
-- やり直す: プロジェクトの編集状態を1つ後の状態に進めます。
-- コピー: 選択しているグラフィックオブジェクトをペーストバッファにコピーします。
-- ペースト: コピーしたグラフィックオブジェクトを貼り付けます。
-- 削除: 選択しているアイテムを削除します。
+### edit
+- Revert: Restore the project editing state to the previous state.
+- Start Over: Advance the project editing state to the next state.
+- Copy: Copy the selected graphic object to the paste buffer.
+- Paste: Paste the copied graphic object.
+Delete: Delete the selected item.
 
-### 選択
-- 全て選択: グラフィックオブジェクトを全て選択します。
+### select
+- Select All: Select all graphic objects.
 
-### 加工機
-- 動作停止: 加工機の動作を停止させます。
-- 原点復帰: 加工機に原点復帰指示を送ります。
-- グリッドアイテムの作成: グラフィックエリアに表示されているグリッドを加工アイテムとして作成します。
+### Processing machine
+- Stop operation: Stop the operation of the processing machine.
+- Origin return: Send an origin return instruction to the processing machine.
+- Create Grid Item: Create the grid displayed on the graphic area as a processing item.
 
-### ユーザ辞書
-- ユーザ辞書マネージャー: ユーザ辞書マネージャーを開きます。ユーザ辞書の編集やインポート・エクスポート等を行うことができます。
+### User dictionary
+- User dictionary manager: Open the User dictionary manager. You can edit, import / export, etc. the user dictionary.
 
-### 設定
-- ユーザ設定: 各種設定を行うことができます。
+### Setting
+- User settings: Various settings can be made.
 
-### ヘルプ
-- SmartDIYs Creatorについて: ソフトウェアのバージョン情報を確認できます。
-- マニュアル: このマニュアルをブラウザで開きます。
+### Help
+- About SmartDIYs Creator: You can check the version information of the software.
+- Manual: Open this manual in a browser.
 
-## 加工機コントロールエリア
+
+## Processing machine control area
 
 <p align="center">
 <img alt="SmartScreen" src="./images/names/machine_control.png" style="width:100%">
 </p>
 
-ここでは、加工機に関する情報や加工機への動作命令を行うことができます。
-加工機との接続状態は「接続済み」「未接続」で表示されます。また、エラーがある場合はエラー内容も表示されます。
+In this area, you can get information about the processing machine and give operation instructions to the processing machine. The connection status with the processing machine is displayed as "connected" or "not connected". Also, if there is an error, the content of the error is also displayed.
 
-- 推定加工時間: 現在のプロジェクトのおおよその加工時間を `時間 : 分 ' 秒 ''` で表示します。
-- 原点復帰: 加工機がレーザヘッドの原点位置を確認し、ヘッド位置の誤差を解消します。
-- 位置確認: 位置確認モードへの切り替えを行います。このモードではグラフィックエリアにレーザヘッドのアイコンが表示され、オブジェクトの実際の加工位置を確認できます。位置確認モードを解除する場合はこのアイコンをもう一度クリックします。
-- 範囲確認: 加工機のレーザヘッドが加工範囲を示します。
-- 動作停止: 加工機の動作を停止させます。
-- START: ボタンを押すと確認ダイアログが表示され、加工を開始します。
+- Estimated processing time: Show the approximate machining time of the current project in hours: minutes 'seconds".
+- Origin return: The processing machine checks the origin position of the laser head and eliminates the error of the head position.
+- Position check: Switch to position check mode. In this mode, the icon of the laser head is displayed in the graphic area, and you can confirm the actual processing position of the object. Click this icon again to cancel the position check mode.
+- Range confirmation: The laser head of the processing machine indicates the processing range.
+- Stop operation: Stop the operation of the processing machine.
+- START: When the button is pressed, a confirmation dialog is displayed and processing starts.
 
 
-## ツールバー
+## toolbar
 
 <p align="center">
 <img alt="SmartScreen" src="./images/names/toolbar.png" style="width:80%">
 </p>
 
-- (1) 選択ツール: グラフィックエリア内のグラフィックオブジェクトをクリックすることで選択することができます。
-- (2) パンツール: グラフィックエリアをドラッグすることで表示範囲の変更をすることができます。
-- (3) ズームツール: グラフィックエリアをクリックすることで表示範囲を拡大することができます。また、Altキーを押しながらクリックすることで表示範囲を縮小することができます。ドラッグ操作では自由に拡大率変更を行うことができます。
-- (4) プレビュー: 加工指示データを作成し、生成された加工指示データを可視化したものを表示します。
-- (5) コピー: 選択しているグラフィックオブジェクトをペーストバッファにコピーします。
-- (6) ペースト: コピーしたグラフィックオブジェクトを貼り付けます。
-- (7) 削除: 選択しているアイテムを削除します。
-- (8) 元に戻す: プロジェクトの編集状態を1つ前の状態に戻します。
-- (9) やり直す: プロジェクトの編集状態を1つ後の状態に進めます。
+- (1) Selection tool: You can select a graphic object in the graphic area by clicking on it.
+- (2) Pan tool: You can change the display range by dragging the graphic area.
+- (3) Zoom tool: You can enlarge the display range by clicking on the graphic area. You can also reduce the display range by clicking while holding the Alt key. You can change the magnification freely with drag operation.
+- (4) Preview: Create processing instruction data and displays a visualization of the generated processing instruction data.
+- (5) Copy: Copy the selected graphic object to the paste buffer.
+- (6) Paste: Paste the copied graphic object.
+- (7) Delete: Delete the selected item.
+- (8) Undo: Restore the project editing state to the previous state.
+- (9) Start Over: Advance the project editing state to the next state.
 
-## プロパティパレット
-### グラフィックオブジェクト選択時
+
+## Property palette
+### When graphic object is selected
 
 <p align="center">
 <img alt="SmartScreen" src="./images/names/object_property.png" style="width:80%">
 </p>
 
-通常時は、グラフィックエリア内のグラフィックオブジェクトの座標情報等を表示、編集することができます。
+Under normal conditions, you can display and edit the coordinate information of graphic objects in the graphic area.
 
-- X: グラフィックオブジェクトのX座標を表示しています。この数値を変更することで座標を指定することができます。
-- Y: グラフィックオブジェクトのY座標を表示しています。この数値を変更することで座標を指定することができます。
-- W: グラフィックオブジェクトの幅を表示しています。この数値を変更することで幅を指定することができます。
-- H: グラフィックオブジェクトの高さを表示しています。この数値を変更することで高さを指定することができます。
-- 縦横非を固定: このモードでは、上記の操作で幅/高さを指定した際に、縦横非を固定するために高さ/幅が自動的に設定されます。このボタンクリックすることでモードの解除/設定を行うことができます。
-- Rotate: グラフィックオブジェクトの回転を表示しています。この数値を変更することで回転を指定することができます。
+- X: Show X coordinate of graphic object. Coordinates can be specified by changing this number.
+- Y: Show Y coordinate of graphic object. Coordinates can be specified by changing this number.
+- W: Show the width of the graphic object. Width can be specified by changing this number.
+- H: Show the height of the graphic object.Height can be specified by changing this number.
+- Fix aspect ratio: In this mode, when width / height is specified in the above operation, height / width is automatically set to fix aspect ratio. You can cancel / set the mode by clicking this button.
+- Rotate: Show the rotation of a graphic object. Rotation can be specified by changing this number.
 
-### 位置確認モード時
+
+### In position check mode
 
 <p align="center">
 <img alt="SmartScreen" src="./images/names/laserhead_property.png" style="width:80%">
 </p>
 
+In position check mode, you can display and specify the coordinates of the laser head.
 
-位置確認モード時は、レーザヘッドの座標を表示、指定することができます。
+- X: Show X coordinate of laser head. You can move to the coordinate position by changing this number.
+- Y: Show Y coordinate of laser head. You can move to the coordinate position by changing this number.
+- Set User Origin: You can set the current coordinates as the user origin.
 
-- X: レーザヘッドのX座標を表示しています。この数値を変更することで座標位置に移動させることができます。
-- Y: レーザヘッドのY座標を表示しています。この数値を変更することで座標位置に移動させることができます。
-- ユーザ原点の設定: 現在の座標をユーザ原点として設定することができます。
+## Graphic area
+This is an area to lay out the processing data.
+- Canvas: Indicates the processing range of the processing machine. The processing range can be set by user setting.
+- Scaling tools: You can manipulate the display area of the graphic area.
 
-## グラフィックエリア
-加工データのレイアウトを行うためのエリアです。
-- キャンバス: 加工機の加工範囲を表しています。加工範囲はユーザ設定で設定することができます。
-- 拡大縮小ツール: グラフィックエリアの表示範囲を操作することができます。
+## Item list
+- Add Item: Click to display a menu and you can add items to the project.
+- File select: Add a local file.
+- Asset Catalog: Adds figures etc. provided in this software.
+- Create Text: Create and add text objects.
 
-## アイテムリスト
-- アイテムを追加: クリックすることでメニューが表示され、プロジェクトにアイテムを追加することができます。
- - ファイル選択: ローカルファイルを追加します。
- - アセットカタログ: 本ソフトウェアに用意されている図形などを追加します。
- - テキスト作成: テキストオブジェクトを作成・追加します。
+Added Items can be checked from the list. Processing is performed in the order of this list.
 
-追加されたアイテムはリストから確認することができます。なお、このリストの並び順に加工が行われます。
-
-また、アイテムリスト下部のアイコンをクリックすると表示モードを切り替えることができます。
+You can also switch the display mode by clicking the icon at the bottom of the item list.
 <p align="center">
 <img alt="SmartScreen" src="./images/names/itemlist_mode.png" style="width:50%">
 </p>
 
-#### パラメータ設定ウィンドウ
-アイテムリストに表示されているアイテムをクリックすると表示され、対象のアイテムの加工パラメータを設定します。
+#### Parameter setting window
+Click an item displayed in the item list to display and set the processing parameters of the item.
 
-- マニュアル: アイテムの加工の有効・無効やパラメータを手動で設定できます。また、設定したパラメータをユーザ辞書へ登録できます。
-- ユーザ辞書: 登録したパラメータを選択できます。
-- プリセット: 弊社で推定した加工パラメータです（加工結果は実際に加工する素材の特性や機械の調整精度に依存します）
+- Manual: You can set Enables / disables of item processing and parameters manually.You can also register the set parameters in the user dictionary.
+- User dictionary: You can select the registered parameter.
+- Preset: Processing parameters estimated by our company (The processing result depends on the characteristics of the material actually processed and the adjustment accuracy of the machine)

@@ -1,22 +1,23 @@
-ここではFABOOLシリーズにおけるレーザ加工の種類と、対応する画像フォーマットについて説明します。
+This section describes the types of laser processing in the FABOOL series and the corresponding image formats.
 
-## ベクタ（線）加工
+## Vector (line) processing
 
 <p align="center">
 <img alt="SmartScreen" src="./images/processtype/vector_stroke_photo.jpg" style="width:60%">
 </p>
 
-この加工方法では、ベクタ画像のパスに沿ってレーザヘッドが移動し、加工を行うことができます。
+In this processing method, the laser head can be moved along the vector image path to perform processing.
 
-### 特徴
-- 切断加工や直線・曲線の刻印に適している加工方法です。
-- この加工を行うためには、ベクタ画像（SVGやDXF）が必要です。
+### Feature
+- This processing method is suitable for cutting processing and marking of straight lines and curves.
+- In order to perform this processing, vector images (SVG and DXF) are required.
 
-### データ作成方法
-お持ちのドローイングソフトウェアにて任意の図形を描き、線の色を設定することでベクタ（線）加工を行うためのデータが作成できます。  
-また、SVGデータをソフトウェアにインポートする際、色ごと別々のアイテムに分割されます。そのため、あらかじめ線の色分けを行なっておくことで、加工順序の変更を調整できるようになります。
+
+### How to create data
+You can create data for vector (line) processing by drawing an arbitrary figure with your drawing software and setting the line color.  
+Also, when importing SVG data into software, it is divided into separate items for each color. Therefore, it is possible to adjust the change of processing order by color-coding the lines beforehand.
 ```
-※白色の線は無視されるため、白色以外で指定してください。
+※ White lines are ignored and should not be white.
 ```
 <p align="center">
 <img alt="SmartScreen" src="./images/processtype/vector_stroke.png" style="width:70%">
@@ -25,54 +26,54 @@
 
 ----------------------------------
 
-## ベクタ（塗り）加工
+## Vector (painting) processing
 
 <p align="center">
 <img alt="SmartScreen" src="./images/processtype/vector_fill_photo.jpg" style="width:60%">
 </p>
 
-この加工方法では、パスの「塗り」を細かい平行線を引き重ねて（ハッチング）表現します。本ソフトウェアでは平行線同士の間隔やパターンを設定することができます。
+In this processing method, the "painting" of the path is expressed by overlapping fine parallel lines (hatching). With this software, you can set the spacing and pattern of parallel lines.
 
-### 特徴
-- ロゴや文字の刻印に適している加工方法です。
-- この加工を行うためには、ベクタ画像（SVG）が必要です。
+### Feature
+- This processing method is suitable for imprinting logos and characters.
+- In order to perform this processing, vector images (SVG) are required.
 
-### データ作成方法
-お持ちのドローイングソフトウェアにて任意の図形を描き、塗りの色を設定することでベクタ（塗り）加工を行うためのデータが作成できます。
-また、SVGデータをソフトウェアにインポートする際、色ごと別々のアイテムに分割されます。そのため、あらかじめ線塗りの色分けを行なっておくことで、加工順序の変更を調整できるようになります。
+
+### How to create data
+You can draw arbitrary figures with your drawing software and set the painting color to create data for vector (paint) processing. Also, when importing SVG data into software, it is divided into separate items for each color. For this reason, it is possible to adjust the change in processing order by performing color coding in advance.
 ```
-※白色の塗りは無視されるため、白色以外で指定してください。
+※ White paint is ignored and please specify other than white.
 ```
 <p align="center">
 <img alt="SmartScreen" src="./images/processtype/vector_fill.png" style="width:70%">
 </p>
 
 ```
-[ご注意]
-JPGやPNGなどをSVGとして保存してもベクタ画像には変換されません。
-ベクタデータに変換するためには、お持ちのドローイングソフトウェアにて画像トレース等の作業が必要です。
+[Document Disclaimer]
+Even if you save JPG, PNG, etc. as SVG, they are not converted to vector images.
+In order to convert to vector data, it is necessary to work on image tracing etc. with your drawing software.
 ```
 ----------------------------------
 
-## ラスタ加工
+## Raster processing
 
 <p align="center">
 <img alt="SmartScreen" src="./images/processtype/raster_photo.jpg" style="width:60%">
 </p>
 
-この加工方法では、ラスタ画像にディザリング処理を行って画像の濃淡を表現します。
+In this processing method, the gradation of the image is expressed in the raster image by performing the dithering process.
 
-### 特徴
-- 濃淡のあるイラストや写真の刻印に適している加工方法です。
-- この加工を行うためには、ラスタ画像（JPGやPNG等）が必要です。
-- レーザの強度（刻印の濃さ）ではなく、ドットの密度で濃淡を表現します。
+### Feature
+- It is a processing method that is suitable for imprinting illustrations and photographs with contrasts.
+- Raster images (JPG, PNG, etc.) are required to perform this processing.The density of dots is used to express light and shade rather than the intensity of the laser (the density of the imprint).
 
-### データ作成方法
-お持ちのペイントソフトウェア等にてトリミングやコントラストの調整を行ってください。
+
+### How to create data
+Please adjust the trimming and contrast with your paint software etc.
 
 ```
-※インポート時にグレースケールへ自動変換変換されます。
-※インポート時に横1023ピクセルにリサイズされます。
+※ Automatically converted to grayscale when importing.
+※ When importing, it is resized to 1023 pixels horizontally.
 ```
 
 <p align="center">
@@ -81,16 +82,15 @@ JPGやPNGなどをSVGとして保存してもベクタ画像には変換され�
 
 
 ----------------------------------
-## DXFデータについて
+## About DXF data
 
-### 書き出し形式について
-本ソフトウェアでは、**DXF R12・テキスト** 形式の書き出しを推奨しております。
+### About export format
+In this software, it is recommended to export DXF R12 text format.
 
-### 色分けについて
-AutoCAD 2018 や LibreCAD をお使いの場合、レイヤーに色をつけて保存することで色分けを表現できます。
+### About color coding
+If you use AutoCAD 2018 or LibreCAD, you can colorize the layers by coloring them and saving them.
 
-一方、DXFフォーマットはソフトウェア毎の方言が多く、お使いのソフトウェアによっては上記の方法で書き出した場合でも色を認識できない場合がございます。
-その場合は、SVGとして書き出して頂くか、SVG変換を行うためのソフトウェアやオンラインサービスをご利用ください。
+On the other hand, the DXF format has many dialects for each software, and some software may not recognize the color even if it is exported by the above method. In that case, please export as SVG or use software or online service for converting SVG.
 
 - [https://www.dxfconverter.org/](https://www.dxfconverter.org/)
 - [https://convertio.co/ja/dxf-svg/](https://convertio.co/ja/dxf-svg/)

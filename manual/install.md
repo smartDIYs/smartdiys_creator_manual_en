@@ -1,13 +1,14 @@
-ここでは、SmartDIYs Creatorのインストール方法について説明します。
+This section explains how to install SmartDIYs Creator.
 
-なお、旧ソフトウェアのドライバ（smartLaserドライバ/faboolLaserドライバ）がインストールされている場合は、本ソフトウェアのインストール時に自動的に削除されます。予めご了承下さい。
+If the old software driver (smartLaser driver / faboolLaser driver) is installed, it will be automatically deleted when this software is installed. Please be aware in advance.
 
-## ソフトウェアのインストール
+## Software installation
 
-1. <a href="https://www.smartdiys.com/smartdiys-creator/" target="_blank">こちら</a>のページから、お使いのOSのインストーラをダウンロードしてください。
+1. Please check the terms of the agreement on <a href="https://www.smartdiys.com/smartdiys-creator/" target="_blank">this guide page</a> and download the installer for your operating system.
 
-2. ダウンロードしたインストーラを実行します。
-3. Windowsをお使いの方でセキュリティ警告（SmartScreen）が表示される場合は、「詳細情報」をクリックし、発行元が「SMARTDIYS CO., Ltd.」であることを確認して「実行」ボタンを押してください。
+2. Run the downloaded installer.
+3. If you are using Windows and a security warning (SmartScreen) is displayed, click "Detailed Information", confirm that the issuer is "SMARTDIYS CO., Ltd.", and click the "Run" button.
+
 <p align="center">
 <img alt="SmartScreen" src="./images/install/SmartScreen1_guide.png" style="width:70%">
 </p>
@@ -16,31 +17,32 @@
 </p>
 
 ---
-4. インストール画面が表示されるので、「次へ」ボタンをクリックします。
+4. The installation screen is displayed, and click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_1.png" style="width:70%">
 </p>
 
 ---
-5. SmartDIYs Creatorが既にインストールされているか確認します。既にインストールされている場合はアンインストールされます。
+5. Make sure that SmartDIYs Creator is already installed. If already installed, it will be uninstalled.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_2.png" style="width:70%">
 </p>
 
 ---
-6. チェックが完了したら、「次へ」ボタンをクリックします。
+6. When the check is complete, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_3.png" style="width:70%">
 </p>
 
 ---
-7. インストール先フォルダを指定します。特に変更がなければそのまま「次へ」ボタンをクリックします。
+7. Specify the installation destination folder. If there are no changes, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_4.png" style="width:70%">
 </p>
 
 ---
-8. FABOOLSoftwareドライバのインストール状況を確認します。インストールされている場合はアンインストールされます。※PC環境によっては少し時間がかかる場合があります。
+8. Check the installation status of FABOOLSoftware driver. If it is installed, it will be uninstalled.   
+※ It may take some time depending on the PC environment.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_5.png" style="width:70%">
 </p>
@@ -49,25 +51,26 @@
 </p>
 
 ---
-9. チェックが完了したら、「次へ」ボタンをクリックします。
+9. When the check is complete, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_7.png" style="width:70%">
 </p>
 
 ---
-10. インストールするコンポーネントが表示されます。全てにチェックが入っていることを確認し、「次へ」ボタンをクリックします。
+10. The components to be installed are displayed. Make sure that all items are checked, and click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_8.png" style="width:70%">
 </p>
 
 ---
-11. 表示されるライセンス条項をご確認頂き、同意される場合は「ライセンスに同意する」にチェックを入れ、「次へ」ボタンをクリックします。※ライセンスに同意されない場合はインストールを完了することはできません。
+11. Confirm the displayed license terms, and if you agree, check "I accept the license" and click the "Next" button.   
+※ If you do not agree with the license, you can not complete the installation.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_9.png" style="width:70%">
 </p>
 
 ---
-12. インストールボタンをクリックすると、インストールが始まります。
+12. Click the Install button to begin installation.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_10.png" style="width:70%">
 </p>
@@ -76,27 +79,27 @@
 </p>
 
 ---
-13. Windowsをお使いの場合、インストール中にデバイスドライバのインストールが開始されますので、「次へ」をクリックしてインストールを行います。
+13. If you are using Windows, installation of device driver will start during installation, so click “Next” to install.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_12.png" style="width:70%">
 </p>
 
 ---
-14. デバイスドライバのインストールが完了したら、「完了」ボタンをクリックします。
+14. When the device driver installation is complete, click the "Finish" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_13.png" style="width:70%">
 </p>
 
 ---
-15. インストール完了画面が表示されるので、「完了」ボタンをクリックします。このとき「Run Application」にチェックが入っている場合は、自動的にDesktopAppが起動します。
+15. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_14.png" style="width:70%">
 </p>
 
-## PCの設定について
-SmartDIYs Creatorは加工中、加工機に対して常に制御情報を送付しています。そのため、PCがスリープモードになってしまったり、アプリケーションが非アクティブになってしまうなどすると、加工機への制御情報の送付が中断されてしまったり、通信の優先度が下げられてしまう場合があります。
-これを避けるため、下記を参考にスリープ設定を解除することをお勧めしております。
+## About setting of PC
+SmartDIYs Creator constantly sends control information to the processing machine during processing. Therefore, if the PC goes into sleep mode or the application becomes inactive, sending of control information to the processing machine may be interrupted or the connection priority may be lowered. In order to avoid this, it is recommended to cancel the sleep setting referring to the following.
 
-- [スリープ設定の解除方法（Windows 10）](https://www.tipsfound.com/windows10/03005)
-- [スリープ設定の解除方法（Windows 7）](https://www.frontier-direct.jp/faq/09/004235.htm)
-- [スリープ設定の解除方法（Mac）](http://minto.tech/mac-sleep/)
+
+- [How to cancel the sleep setting（Windows 10）](https://www.tipsfound.com/windows10/03005)
+- [How to cancel the sleep setting（Windows 7）](https://www.frontier-direct.jp/faq/09/004235.htm)
+- [How to cancel the sleep setting（Mac）](http://minto.tech/mac-sleep/)
