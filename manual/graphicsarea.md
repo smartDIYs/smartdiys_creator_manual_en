@@ -1,52 +1,40 @@
-# グラフィックエリアのコントロール
+# Graphic area control
 
-## 表示エリアのコントロール
-キャンバスエリアの表示領域は、`パンツール`や`ズームツール`で操作できます。
-また、下記の操作方法でもコントロールすることができます。
+## Display area control
+The display area of the canvas area can be manipulated with the `pan tool` or the `zoom tool`. You can also control using the following operation method.
 
-- 表示領域の位置変更: スペースキー + マウスドラッグ / マウス（中ボタン）ドラッグ
-- 表示領域の縮尺変更: Altキー + マウスホイール
+- Reposition display area: Space key + mouse drag
+- Scale display area: Alt + mouse wheel
 
-## グラフィックオブジェクトのコントロール
-オブジェクトをクリックするとオブジェクトが選択され、コントローラが表示されます。
-マウスドラッグ等でコントローラを操作することでオブジェクトをコントロールすることができます。
-また、これらの操作は、プロパティパレットから行うこともできます。
+## Graphic object control
+Clicking an object selects the object and displays the controller. You can control the object by operating the controller by mouse drag etc. You can also perform these operations from the Properties palette.
 
-### 位置のコントロール
-コントローラをドラッグすることで任意の位置にオブジェクトを移動させることができます。
-また、キーボードの矢印キーで移動させることもできます。
+### Position control
+You can move the object to any position by dragging the controller. You can also move it with the arrow keys on your keyboard.
 
-### 大きさのコントロール
-コントローラの隅にあるグリップをドラッグすることで任意の大きさにすることができます。
-ドラッグの際、`Shift`キーを押すと縦横比の固定を切り替えることができます。
+### Size control
+You can drag the grips at the corners of the controller to any size. When dragging, hold down the `Shift` key to switch the aspect ratio fixed.
 
-### 回転のコントロール
-コントローラのグリップ付近にマウスカーソルを近ずけると、カーソルのアイコンが回転コントロールのマークになります。この状態でドラッグすると任意の角度に回転させることができます。
+### Rotation control
+When the mouse cursor approaches the grip of the controller, the cursor icon becomes a mark of the rotation control. You can rotate it to any angle by dragging in this state.
 
-### オブジェクトの複製
-オブジェクトを選択した状態でコピーアイコンをクリックするとペーストバッファにコピーすることができます。この状態でペーストアイコンをクリックすると、オブジェクトを複製することができます。この際、オブジェクトに紐づいているレーザパラメータはコピー元のオブジェクトと共有されます。
+### Object replication
+With the object selected, you can copy to the paste buffer by clicking the copy icon. In this state, you can replicate objects by clicking the paste icon. At this time, the laser parameters linked to the object are shared with the copy source object.
 
-### オブジェクトの削除
-オブジェクトを選択した状態でゴミ箱アイコンをクリックすると削除することができます。
+### Delete object
+With an object selected, you can delete it by clicking the trash can icon.
 
-### オフジェクトの整列
-オブジェクトを選択した状態で右クリックすると、メニューが表示されます。
-このメニューの「整列」項目から任意の整列操作を行うことができます。
+### Object alignment
+Right-click with the object selected to display the menu. You can perform any alignment operation from the "Arrange" item in this menu.
 
-- `選択オブジェクトに整列`  
-複数のオブジェクトが選択されている場合に有効です。
-選択されている複数のオブジェクトの矩形範囲に於いて整列動作を行います。
-複数のオブジェクトを選択して「右揃え」を行うと、一番右にあるオブジェクトの右端に整列されます。
+- `Align to selected object`  
+It is effective when multiple objects are selected. Aligned in the rectangular range of multiple selected objects. If you select multiple objects and "right alignment", they will be aligned with the right edge of the rightmost object.
 
-- `キャンバスに整列`  
-単体または複数のオブジェクトが選択されている場合に有効です。
-キャンバスの範囲が整列の範囲に於いて整列動作を行います。
-複数オブジェクトを選択して「右揃え」を行うと、キャンバスの右端に整列されます。
+- `Align to canvas`  
+It is effective when one or more objects are selected. The range of the canvas performs alignment operation in the range of alignment. If you select multiple objects and "right alignment", they will be aligned with the right edge of the canvas.
 
-### オフジェクトの反転
-オブジェクトを選択した状態で右クリックすると、メニューが表示されます。
-このメニューの「変形」項目から任意の反転操作を行うことができます。
+### Invert object
+Right-click with the object selected to display the menu. You can do any reverse operation from the "Transform" item of this menu.
 
-### オブジェクトの重なりの操作
-オブジェクトを選択した状態で右クリックすると、メニューが表示されます。
-このメニューの「背面へ移動」をクリックすると、選択オブジェクトを背面へ移動することができます。
+### Manipulating object overlap
+Right-click with the object selected to display the menu. You can move the selected object to the back by clicking "Move to Back" in this menu.
