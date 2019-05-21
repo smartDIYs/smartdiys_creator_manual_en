@@ -1,49 +1,47 @@
-メニューバーにある「加工機 > グリッドアイテムの作成」をクリックすると、キャンバスのグリッドを加工データとして作成することができます。このグリッドを任意の土台に刻印することで、位置合わせをサポートします。
+You can create a canvas grid as processing data by clicking "Processing Machine> Create Grid Item" in the menu bar. Engraving this grid on any base supports alignment.
 
 ```
-※ 可燃性のある素材にグリッドを刻印して運用する際は十分注意してください。
+※ Please be careful when using grids engraved on flammable materials.
 ```
-
 
 | ![Metal&Lacquer](./images/griditem/metal_lacquer_source.jpg) | ![Cardboard](./images/griditem/cardboard_source.jpg) |
 |:-------------------------------------------------------------|:-----------------------------------------------------|
-| 金属板 + ラッカー塗装                                        | ダンボール                                           |
+| Metal plate + lacquer-finished                                        | cardboard                                           |
 
 
-## グリッドアイテムの刻印
+## Engrave of grid item
 
 <p align="center">
 <img alt="GridItem" src="./images/griditem/grid_engrave.jpg" style="width:70%">
 </p>
 
 
-1. グリッドを刻印する素材（以下「土台」）に刻印を行う前に、土台と加工機の位置を固定します（土台と加工機の位置関係がずれると位置决め精度が低下します）。
-2. ソフトウェア上で「加工機 > グリッドアイテムの作成」をクリックし、任意の大きさのグリッドを作成します。
-3. パラメータを設定して加工を行います。主線（黒い線）と副線（赤い線）がありますが、主線のみでも大丈夫です。
+1. Fix the position of the base and the processing machine before engraving on the material to engrave the grid (hereinafter referred to as “base”). (If the positional relationship between the base and the processing machine deviates, the accuracy of positioning will be deteriorated).
+1. Click "Processing Machine"> "Create Grid item" on the software to create a grid of any size.
+1. Set parameters and process. There are major lines (black lines) and minor lines (red lines), but even main lines are fine.
 
-## グリッドを利用した位置決め
+## Positioning using grid
 | ![Software](./images/griditem/grid_software.png) | ![Real](./images/griditem/gred_real.jpg) |
 |:-------------------------------------------------|:-----------------------------------------|
-| キャンバス上のオブジェクトの位置                 | 加工する素材の位置                       |
+| Position of object on canvas                 | Position of material to be processed                       |
 
 <p align="center">
 <img alt="GridItem" src="./images/griditem/position_success.jpg" style="width:80%">
 </p>
 
 
-## 土台と加工機の相対位置がずれてしまった場合
-土台のグリッドと加工機の相対位置がずれてしまった場合は、ソフトウェア上の「位置確認」機能を利用して、ある程度復旧させることができます。
+## When the relative position between the base and the processing machine has deviated
+If the relative position between the base grid and the processing machine deviates, it can be restored to a certain extent by using the "Position check" function in the software.
 
-1. 「位置確認」ボタンを押してレーザヘッドを任意の位置へ移動させます（下記の例ではヘッドの左上を原点に合わせています）。
-2. 実際のレーザヘッドの位置とグリッドの位置関係を確認し、ソフトウェア上の位置関係と同じになるように修正します。
-3. 1,2の作業をいくつかのポイントで行い、土台と加工機の相対位置を修正します。
+1. Press the "Position check" button to move the laser head to the desired position (in the example below, the upper left of the head is set to the origin).
+1. Check the positional relationship between the actual laser head position and the grid, and correct it to be the same as the positional relationship in the software.
+1. Work 1 and 2 at several points to correct the relative position of the base and machine.
 
 | ![Software](./images/griditem/head_grid_software.png) | ![Real](./images/griditem/head_grid_real.jpg) |
 |:------------------------------------------------------|:----------------------------------------------|
-| キャンバス上のレーザヘッドとグリッドの位置関係        | 実際のレーザヘッドとグリッドの位置関係        |
+| Positional relationship between laser head and grid on canvas        | Actual position relationship between laser head and grid        |
 
-
-## 参考
+## Reference
 FABOOL Laser Mini 1.6W
 
 | ![Metal&Lacquer](./images/griditem/metal_lacquer.jpg) | ![Cardboard](./images/griditem/cardboard.jpg) |
