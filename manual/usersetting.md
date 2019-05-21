@@ -1,75 +1,76 @@
-ここでは、ユーザ設定ダイアログの設定項目について説明します。
+This section describes the settings in the User Settings dialog.
 
 <p align="center">
 <img alt="UserOrigin" src="./images/usersetting/about.png" style="width:70%">
 </p>
 
-## 加工機
+## Processing machine
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_1.png" style="width:70%">
 </p> -->
 
-### 設定
-お使いの加工機のモデル名とレーザタイプを設定します。この設定は、加工範囲やドライバパワー、プリセットパラメータに影響します。
+### Configuration
+Set the model name and laser type of your machine. This setting affects the machining range, driver power and preset parameters.
 
-### 加工範囲
-お使いの加工機の加工範囲を設定します。上記のモデル名を選択すると自動的に設定されるため、通常は設定を変える必要はございません。拡張フレーム等を利用する場合に設定します。
+### Processing range
+Set the processing range of your processing machine. There is usually no need to change the settings, as these are automatically set when you select the model name above. Set it when using an extension frame etc.
 
-### ドライバパワー
-モータに流れる電流値を調整します。上記のモデル名を選択すると自動的に設定されるため、通常は変更する必要はありません。脱調が多発する場合、この値を調整することで改善できる場合があります。
+### Driver power
+Adjust the current value flowing to the motor. It is not necessary to change usually because it is set automatically when you select the model name above. If step-out occurs frequently, adjusting this value may improve the situation.
 
 ---------------
-## 単位・表示
+## Unit, display
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_2.png" style="width:70%">
 </p> -->
 
-### 単位
-グリッドの間隔やオブジェクトの矩形表示単位などを mm または inch に設定できます。
+### Unit
+You can set the grid spacing, the rectangle display unit of objects, etc. to mm or inch.
 
-### 表示
-グリッドの表示・非表示の切り替えができます。
+### Display
+You can show or hide the grid.
 
-### プレビュー
-プレビュー時の線幅を指定します。実際のレーザ幅に設定することで仕上がりの印象に近づきます。
+### Preview
+Specify the line width at preview. By setting the actual laser width, you can get close to the impression of the finish.
 
 ---------------
-## シーク速度
+## Seek speed
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_3.png" style="width:70%">
 </p> -->
 
-シーク速度：レーザヘッドがレーザを出力していない時の移動速度です。基本的にレーザ出力が終了した地点から、次のレーザ出力開始点までの移動速度になります。
+Seek speed: The movement speed when the laser head does not output the laser. Basically, it is the moving speed from the point where the laser output ends to the next laser output start point.
 
-### シーク速度
-Defaultモード: シーク速度を指定した値に設定します。
-Qualityモード シーク速度を加工速度に合わせます。
-※ラスタ加工中やハッチング加工中（ベクタ塗り加工中）は、常にQualityモードに準ずる動作で行われます。
+### Seek speed
+Default mode: Set the seek speed to the specified value.  
+Quality mode: Set the seek speed to the processing speed.  
+※ During raster processing and hatching processing (during vector painting processing), operations are always performed according to the Quality mode.
 
-### シーク速度（メンテナンス時）
-位置確認や範囲確認を行う際のレーザヘッドの移動速度を設定できます。
+
+### Seek speed (during maintenance)
+You can set the moving speed of the laser head for position check and range check.
 
 
 ---------------
-## 補正
+## Correction
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_4.png" style="width:70%">
 </p> -->
 
 ```
-※これらの機能は補助的なものです。
-ハードウェアの調整を十分に行なった上でご利用ください。
+※ These functions are auxiliary.
+Please use it after making sufficient hardware adjustments.
 ```
 
-### 大きさ補正
-図形をG-Codeに変換する際に各方向へ指定された割合だけ拡大・縮小します。オブジェクトが加工範囲の境界近くにある場合、加工中にリミットスイッチに接触してしまう恐れがあります。
+### Size correction
+When converting a figure to G-Code, it will be scaled by the specified ratio in each direction. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
 
-### X軸傾き補正
-加工機のX軸の傾きを補正するため、GCodeに変換される際にオブジェクトにシアーを適用します。オブジェクトが加工範囲の境界近くにある場合、加工中にリミットスイッチに接触してしまう恐れがあります。
+### X axis tilt correction
+Apply shear to the object when converted to GCode to correct the machine's X-axis tilt. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
 
 
 <!-- ---------------
@@ -83,11 +84,11 @@ Qualityモード シーク速度を加工速度に合わせます。
 新しいアイテムをインポートする際に設定されるレーザパラメータのデフォルト値を設定します。すでに生成されているパラメータには影響しません。 -->
 
 ---------------
-## その他
+## Other
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_6.png" style="width:70%">
 </p> -->
 
-### 通知
-ソフトウェアアップデートの自動通知の有効・無効を設定します。新しいバージョンがある場合、ソフトウェア起動時にダイアログが表示されます。
+### notification
+Set enable / disable of automatic notification of software update. If there is a newer version, a dialog will appear when the software is launched.
