@@ -1,99 +1,89 @@
-ここでは、実際にソフトウェアを起動し、加工を行うまでの流れを説明します。
+Here, we will actually start the software and explain the flow to processing.
 
-## ソフトウェアの起動
-インストールしたソフトウェアを起動します。起動すると新規プロジェクトが展開されます。
-初回起動時には、利用する加工機の種類とユーザ設定ダイアログで設定されている加工機の種類が一致していることを確認してください。
+## Software startup
+Launch the installed software. When launched, a new project is deployed. At the first start, make sure that the type of machine to be used matches the type of machine set in the User Settings dialog.
 
-## 加工機との接続
-加工機の電源を入れ、USBケーブルでPCと加工機と接続します。
+## Connection with processing machine
+Turn on the processing machine and connect the PC and the processing machine with the USB cable.
 
-## 加工データの配置
+## Arrangement of processing data
 
-### データのインポート
-まず、アイテムリストパネルにある「アイテム追加」ボタンをクリックし、下記のいずれかの手段で加工アイテムを追加します。
+### Data import
+First, click the "Add Item" button in the Item List panel, and add a processing item by one of the following methods.
 
-- `ローカルファイルからインポート`  
-お持ちの画像データ（jpg/png/svg等）をインポートする場合は「ファイル選択」ボタンをクリックしてください。ファイル選択ダイアログが開き、対象のファイルを選択することでインポートできます。
-また、グラフィックエリアに対象ファイルをドラッグ&ドロップすることでもインポートできます。
+- `Import from local file`  
+If you want to import your own image data (jpg / png / svg etc), please click "Select File" button. The file selection dialog opens, and you can import it by selecting the target file. You can also import by dragging and dropping the target file into the graphic area.
 
-- `アセットカタログからインポート`  
-ソフトウェアに用意されている図形やサンプルデータを利用する場合は「アセットカタログ」をクリックしてください。アセットカタログが開き、お好きなデータを選択してインポートすることができます。
+- `Import from asset catalog`  
+Click "Asset Catalog" to use the figures and sample data provided in the software. The asset catalog will open and you can select and import your favorite data.
 
-- `テキストアイテムの作成`  
-任意の文字の加工アイテムを作成する場合は「テキスト作成」ボタンをクリックしてください。お持ちのフォントでテキストアイテムを作成することができます。
-また、加工方法は「塗りのみ」「線のみ」「塗りと線」から選択することができます。
-※縦書きや改行には対応しておりません。
+- `Create text item`  
+Click the "Create Text" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".  
+※ We do not cope with vertical writing and line feed.
 
-### レイアウト編集
-アイテムを追加するとキャンバスにグラフィックオブジェクトが配置されます。
-配置されたオブジェクトの位置や大きさ、回転角度を設定します。
+### Layout editing
+Adding an item places a graphic object on the canvas. Set the position, size, and rotation angle of the placed object.
 
-### パラメータ設定
-アイテムリストにある対象のアイテムをクリックするとパラメータ設定ウィンドウが表示されます。
-下記のいずれかの方法でパラメータを設定します。
+### Parameter settings
+When you click the target item in the item list, the parameter setting window is displayed. Set the parameter in one of the following ways.
 
-- `マニュアル`  
-  アイテムの加工パラメータを手動で設定できます。また、設定したパラメータをユーザ辞書へ登録できます。
+- `Manual`  
+  You can set the processing parameters of the item manually. You can also register the set parameters in the user dictionary.
 
-- `ユーザ辞書`  
-  ユーザ辞書に登録されたパラメータを適用します。
+- `User dictionary`  
+  Apply the parameters registered in the user dictionary.
 
-- `プリセット`  
-  あらかじめ用意されているパラメータです。加工結果は実際に加工する素材の特性や機械の調整精度に依存します。
+- `Preset`  
+  It is a parameter prepared in advance. The processing result depends on the characteristics of the actually processing material and the adjustment accuracy of the machine.
 
-### 加工順序設定
-複数のアイテムを加工する場合、アイテムリストの上から順に加工されます。アイテムリストの順序はドラッグ&ドロップで並べ変えることができます。
+### Processing order setting
+When processing multiple items, it is processed in order from the top of the item list. The order of the item list can be rearranged by drag and drop.
 
 <p align="center">
 <img alt="GridItem" src="./images/flow/order.png" style="width:70%">
 </p>
 
-## 加工準備
+## Preparation for processing
 
-### 原点復帰
-まず最初に原点復帰ボタンを押して原点復帰を行ってください。
-原点復帰を行うことで、加工機がレーザヘッドの位置を正確に把握することができます。
+### Origin return
+First, press the origin return button to perform origin return. By performing origin return, the processing machine can accurately grasp the position of the laser head.
 
-### 素材の設置
-加工機に加工対象の素材を設置します。
+### Material installation
+The material to be processed is installed on the processing machine.
 
-### 焦点距離の設定
-ソフトウェアの「位置確認モード」などを利用してレーザヘッドを素材の真上へ移動させ、素材とレーザヘッドの距離（焦点距離）を調整します。
+### Setting of focal length
+Move the laser head directly above the material using the software's “position check mode” etc., and adjust the distance (focal length) between the material and the laser head.
 
 <p align="center">
 <img alt="GridItem" src="./images/flow/focus.png" style="width:80%">
 </p>
 
-### 加工範囲の確認
-必要に応じて、素材に対する加工範囲の確認を行ってください。
-加工範囲の確認は「位置確認」や「範囲確認」をご利用ください。
+### Confirmation of processing range
+If necessary, please check the processing range for the material. Please use "Position check" or "Range check" to check the processing range.
 
-
-## 加工開始
+## Processing start
 
 ---------------
 
-### 安全チェック項目
-- レーザヘッドの高さは適切ですか？
-- 加工エリア内や加工機の近くに障害物はありませんか？
-- 素材を置いている台は燃えにくいですか？  
-  （素材の厚さによってはレーザ光が到達する可能性があります）
-- 加工範囲が配置している素材の中に収まっていますか？
+### Safety check items
+- Is the height of the laser head appropriate?
+- Are there any obstacles in the processing area or near the processing machine?
+- Is the base on which the material is placed hard to burn?  
+(Laser light may reach depending on the thickness of the material)
+- Is the processing range within the material being arranged?
 
 ---------------
 
+When everything is ready, click the START button. A reminder dialog will be displayed, check the contents and click the "OK" button.
 
-全ての準備が整ったら、STARTボタンをクリックします。注意喚起ダイアログが表示されるので内容を確認し、「OK」ボタンを押してください。
+Depending on the parameter settings and the material, it may burn with flame. Do not leave the processing machine while processing. In addition, the software always sends control information to the processing machine during processing. Therefore, if the PC goes into sleep mode or the application becomes inactive, sending of control information to the processing machine may be interrupted or the communication priority may be lowered. Please be careful.
 
-パラメータの設定値や素材によっては炎が上がる恐れがあります。加工中は加工機から離れないでください。
-また、ソフトウェアは加工中、加工機に対して常に制御情報を送付しています。そのため、PCがスリープモードになってしまったり、アプリケーションが非アクティブになってしまうなどすると、加工機への制御情報の送付が中断されてしまったり、通信の優先度が下げられてしまう場合があります。ご注意ください。
+## Finished processing
+Take out the material from the processing machine and check the processing result.
 
-## 加工終了
-加工機から素材を取り出し、加工結果を確認してください。
+## Work end
+When all work has been completed, follow the steps below.
 
-## 作業終了
-
-全ての作業が終了したら、下記の手順で終了します。
-1. 加工機とPCを接続しているUSBケーブルを外し、加工機の電源を落とします。
-2. 必要に応じてプロジェクトを保存してください。現在の加工データやパラメータの情報がプロジェクトとして保存することができます。
-3. ソフトウェアのメインウィンドウを閉じ、ソフトウェアを終了します。
+1. Disconnect the USB cable connecting the processing machine and the PC, and turn off the processing machine.
+2. Save the project as needed. Information on current processing data and parameters can be saved as a project.
+3. Close the software main window and exit the software.
