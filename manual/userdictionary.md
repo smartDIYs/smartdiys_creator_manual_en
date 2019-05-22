@@ -33,7 +33,7 @@ Perform the following operations to use the user dictionary.
 <img alt="UserOrigin" src="./images/userdictionary/dictionaryManager.png" style="width:50%">
 </p>
 
-### UserOrigin
+<!-- ### UserOrigin -->
 If you select [Parameters]> [User Dictionary Manager] on the menu bar, the User Dictionary Manager dialog will be displayed. Here you can perform operations such as import and export of user dictionary and bulk deletion.
 
 ### Export user dictionary
