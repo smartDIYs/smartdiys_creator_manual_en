@@ -1,17 +1,17 @@
-ここでは、アップデート方法について説明します。
+This section explains how to update.
 
-## ソフトウェアのアップデート
+## Software update
 
-ソフトウェアのアップデートを行う際には、下記のサイトより最新版のインストーラをダウンロードし、インストールを行なってください。  
-**※なお、インストールを行う際は起動している SmartDIYs Creator を必ず終了させてください。**
+When updating software, download the latest version of the installer from the site below and install it.  
+**※ Please be sure to close the running SmartDIYs Creator when installing.**
 
-[SmartDIYs Creator ダウンロードページ](https://www.smartdiys.com/smartdiys-creator/)
+[SmartDIYs Creator download page](https://www.smartdiys.com/smartdiys-creator/)
 
-最新版のインストールを行う場合、過去のバージョンのソフトウェアは自動的にアンインストールされますが、ユーザ設定やパラメータのユーザ辞書は保持されます。
+When installing the latest version, previous version software will be uninstalled automatically, but user dictionaries of user settings and parameters will be retained.
 
 
-## 現在のバージョンの確認
-`メニューバー` > `ヘルプ` > `SmartDIYs Creator について` をクリックすると現在のソフトウェアバージョンを確認できます。
+## Check current version
+You can check the current software version by clicking `Menu bar`> `Help`> `About SmartDIYs Creator`.
 
-## アップデート通知
-`メニューバー` > `ユーザ設定` > `その他` にある「アップデート通知を有効にする」にチェックを入れると、新しいバージョンがリリースされている場合にお知らせが表示されます。
+## Update notification
+Check "Enable update notification" in `Menu Bar`> `User Settings`> `Other` to display a notification when a new version is released. 

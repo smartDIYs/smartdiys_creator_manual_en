@@ -1,8 +1,8 @@
-## 更新履歴
+## Change log
 
-| 日時      | バージョン | 変更点                                                              |
+| Date      | Version | Change point                                                              |
 |:----------|:-----------|:--------------------------------------------------------------------|
-| 2019.4.17 | v1.0.0     | 正式版リリース                                                      |
-| 2019.4.25 | v1.0.1     | SVG解析に関する不具合修正                                           |
-| 2019.4.26 | v1.0.2     | SVG解析に関する不具合修正<br/>その他 軽微な不具合の修正<br/>        |
-| 2019.5.13 | v1.0.3     | SVG解析に関する不具合修正<br/>マウス中ボタンによるパン機能追加<br/> |
+| 2019.4.17 | v1.0.0     | Official release                                                      |
+| 2019.4.25 | v1.0.1     | Bug fix about SVG analysis                                           |
+| 2019.4.26 | v1.0.2     | Bug fix about SVG analysis, Other minor bug fixes        |
+| 2019.5.13 | v1.0.3     | Bug fix about SVG analysis, Pan function added by mouse middle button |

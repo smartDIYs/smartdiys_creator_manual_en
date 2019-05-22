@@ -1,76 +1,80 @@
-ここでは、ユーザ設定の「補正」項目について説明します。
-この補正項目は下記の現象を改善するために有効な調整値です。
+This section describes the "correction" item of the user setting. This correction item is an adjustment value effective to improve the following phenomena.
 
-- 加工物の寸法がデータと異なる
-- X軸とY軸が直角ではない
+- Workpiece dimensions different from data
+- X axis and Y axis are not perpendicular
 
-## 加工物の寸法がデータと異なる
+## Workpiece dimensions different from data
 
-### 主な原因
-1. 光軸調整が適切ではない
-2. プーリーやタイミングベルトなどの調整が適切ではない
+### Major cause
+1. Optical axis adjustment is not appropriate
+1. Adjustments such as pulleys and timing belts are not appropriate
 
-上記の調整を行なっても改善しきれない場合は、大きさ補正の項目を設定して頂くことで改善が期待できます。
+If improvement cannot be achieved even if the above adjustment is made, improvement can be expected by setting the size correction item.
 
-### 補正値の算出方法
+### Calculation method of correction value
 
-1. 任意の幅・高さの矩形の加工データを用意します。
-2. シワや歪みが生じにくい素材に刻印加工を行います。
-3. データのサイズと刻印加工のサイズから比率を算出します。
+1. Prepare rectangular processed data of any width and height.
+1. We process engraving on materials that resist wrinkles and distortion.
+1. The ratio is calculated from the size of data and the size of engraving process.
 
-#### [算出例]
-データのサイズ: H:200.00mm x W:200.00mm  
-実際の加工サイズ: H:199.10mm x W:199.50mm
 
-[Hの補正値]
+#### [Example of calculation]
+Size of data: H: 200.00 mm x W: 200.00 mm  
+Actual processing size: H: 199.10 mm x W: 199. 50 mm
+
+[H correction value]
+```
+How to obtain: (Data) 200.00 / (Actual) 199.10 = 1.00452034 ...  
+Setting value: 100.45203 (%)
 
 ```
-求め方: （データ）200.00 / （実際）199.10 = 1.00452034...
-設定値: 100.45203(%)
+
+[W correction value]
+```
+How to obtain: (Data) 200.00 / (Actual) 199.50 = 1.00250626...  
+Setting value: 100.25063(%)
+
 ```
 
-[Wの補正値]
+## Right angle data is not accurate
 
-```
-求め方: （データ）200.00 / （実際）199.50 = 1.00250626...
-設定値: 100.25063(%)
-```
+### Major cause
 
-## 直角のデータが正確ではない
+Cause:
+1. Optical axis adjustment is not appropriate
+1. There is a tilt when assembling the frame or X axis
 
-### 主な原因
+If improvement cannot be achieved even if the above adjustment is made, improvement can be expected by adjusting the item of tilt correction.
 
-原因:
-1. 光軸調整が適切ではない
-2. フレームやX軸の組み立て時に傾きが生じている
+### Calculation method of correction value
+First, if the above "size correction" is completed, the correction value can be calculated more accurately.
 
-上記の調整を行なっても改善しきれない場合は、傾き補正の項目を調整して頂くことで改善が期待できます。
+1. Prepare rectangular processing data of any width and height.
+1. We cut and process materials such as paper without wrinkles.
+1. Fold them so that the lower left corner and the upper left corner overlap.
+1. If there is a gap between the lower right corner and the upper right corner, measure the distance (L) of this gap.
+1. Apply the following formula to calculate the angle.
 
-### 補正値の算出方法
-
-まず、上記の「大きさ補正」を済ませておくと、より正確に補正値が算出できます。
-
-1. 任意の幅・高さの矩形の加工データを用意します。
-2. シワのない紙などの素材を切断加工します。
-3. 左下角と左上角が重なるように折り重ねます。
-4. 右下角と右上角の重なりにズレがある場合、このズレの距離（L）を測ります。
-5. 下記の公式に当てはめて、角度を算出します。  
 `θ (deg) = arcsin ( (L/2) / W ) * 180 / π`
 
 <p align="center">
 <img alt="SmartScreen" src="./images/correction/x-axis-angle.png" style="width:70%">
 </p>
 
-#### [算出例]
+#### [Example of calculation]
 
-データのサイズ: H:280.00mm x W:400.00mm  
-折り重ねた際の右下角と右上角のズレ: L: 1.50mm
+Size of data: H:280.00mm x W:400.00mm  
+Gap between lower right corner and upper right corner when folded: L: 1.50 mm
 
-[角度の補正値]
+[Angle correction value]
 
 ```
-求め方: arcsin( 0.75 / 400.00 ) * 180 / π
-設定値:   
-右上がりを補正する場合: -0.10743°  
-右下がりを補正する場合: +0.10743°
+Method: arcsin (0.75 / 400.00) * 180 / π
+Setting value:
+To correct diagonally right up:-0.10743 °
+To correct diagonally right down: + 0.10743 °
+※ Please use this automatic calculation function
+W length: 400mm
+L length: 1.5mm
+The correction value is ±.
 ```

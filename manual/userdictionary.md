@@ -1,60 +1,55 @@
-ここでは、ユーザ辞書の活用方法について説明します。
+This section explains how to use the user dictionary.
 
 <p align="center">
 <img alt="UserOrigin" src="./images/userdictionary/about.png" style="width:50%">
 </p>
 
-## ユーザ辞書の活用
+## Utilization of user dictionary
+Registering frequently used parameters into the user dictionary simplifies parameter setting. It also has post-registration editing, import and export functions.
 
-よく使うパラメータをユーザ辞書へ登録しておくとパラメータ設定が簡単になります。
-また、登録後の編集やインポート・エクスポート機能も備えています。
+### Registration in user dictionary
+Follow the procedure below to register in the user dictionary.
+1. Open the "Manual" tab of the parameter setting window.
+1. Set any parameter. Please skip if already set.
+1. When you click the "Register to Dictionary" button, the parameter edit dialog is displayed.
+1. Enter the name of the parameter and, if necessary, a descriptive text.
+1. When the OK button is pressed, it is registered in the user dictionary.
 
-### ユーザ辞書への登録
+### Use of user dictionary
+Perform the following operations to use the user dictionary.
+1. Open the "User dictionary" tab of the parameter setting window.
+1. Click any parameter and check the parameter settings.
+1. Click Apply button.
 
-ユーザ辞書への登録は下記の手順で行います。
-1. パラメータ設定ウィンドウの「マニュアル」タブを開きます。
-2. 任意のパラメータを設定します。すでに設定済みの場合はスキップしてください。
-3. 「辞書へ登録」ボタンをクリックすると、パラメータ編集ダイアログが表示されます。
-4. パラメータの名称と、必要に応じて説明文を入力します。
-5. OKボタンを押すと、ユーザ辞書に登録されます。
+### Edit parameters registered in user dictionary
+1. Open the "User dictionary" tab of the parameter setting window.
+1. Double-click the target parameter to display the parameter edit dialog.
+1. Enter an arbitrary value for each setting value.
+1. When the OK button is pressed, parameter editing is complete.
 
-### ユーザ辞書の利用
-ユーザ辞書を利用するには、下記の操作を行います。
-1. パラメータ設定ウィンドウの「ユーザ辞書」タブを開きます。
-2. 任意のパラメータをクリックし、パラメータの設定値を確認します。
-3. 適用ボタンをクリックします。
-
-### ユーザ辞書に登録されたパラメータの編集
-1. パラメータ設定ウィンドウの「ユーザ辞書」タブを開きます。
-2. 対象のパラメータをダブルクリックすると、パラメータ編集ダイアログが表示されます。
-3. 各設定値に任意の値を入力します。
-4. OKボタンを押すと、パラメータの編集が完了します。
-
-
-## ユーザ辞書マネージャ
+## User dictionary manager
 
 <p align="center">
 <img alt="UserOrigin" src="./images/userdictionary/dictionaryManager.png" style="width:50%">
 </p>
 
+### UserOrigin
+If you select [Parameters]> [User Dictionary Manager] on the menu bar, the User Dictionary Manager dialog will be displayed. Here you can perform operations such as import and export of user dictionary and bulk deletion.
 
-メニューバーの [パラメータ] > [ユーザ辞書マネージャー] を選択すると、ユーザ辞書マネージャーダイアログが表示されます。
-ここでは、ユーザ辞書のインポートやエクスポート、一括削除の操作が行えます。
+### Export user dictionary
+1. Press the export button to display the export dialog.
+1. Check the parameters to be exported from the displayed list.
+1. Press the OK button to specify the save location and save file name.
 
-### ユーザ辞書のエクスポート
-1. エクスポートボタンを押してエクスポートダイアログを表示します。
-2. 表示されているリストからエクスポートするパラメータにチェックを入れます。
-3. OKボタンを押して、保存場所および保存ファイル名を指定します。
+### Import user dictionary
+1. Press the Import button to display the file selection dialog.
+1. When you select the user dictionary file you want to import, the import dialog is displayed.
+1. Select the parameter you want to import and press the OK button.
 
-### ユーザ辞書のインポート
-1. インポートボタンを押してファイル選択ダイアログを表示します。
-2. インポートしたいユーザ辞書ファイルを選択すると、インポートダイアログが表示されます。
-3. インポートしたいパラメータを選択して、OKボタンを押します。
-
-### パラメータの一括削除
-1. 表示されているリストから削除したいパラメータにチェックを入れます。
-2. ゴミ箱アイコンをクリックし、削除を行います。
+### Bulk deletion of parameters
+1. Check the parameters that you want to remove from the displayed list.
+1. Click the trash can icon to delete it.
 
 ```
-※削除されたアイテムは復元できません。事前にエクスポート等でバックアップを作成することをお勧めいたします。
+※ Deleted items cannot be restored. It is recommended to create a backup by export etc. in advance.
 ```
