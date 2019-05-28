@@ -71,10 +71,11 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 <img alt="SmartScreen" src="./images/install/win_install_13.png" style="width:70%">
 </p>
 
-14. <p>The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.</p>
+14. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_14.png" style="width:70%">
 </p>
+
 
 ## About setting of PC
 SmartDIYs Creator constantly sends control information to the processing machine during processing. Therefore, if the PC goes into sleep mode or the application becomes inactive, sending of control information to the processing machine may be interrupted or the connection priority may be lowered. In order to avoid this, it is recommended to cancel the sleep setting referring to the following.
