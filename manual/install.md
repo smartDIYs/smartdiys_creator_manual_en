@@ -7,14 +7,7 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 1. Please check the terms of the agreement on <a href="https://www.smartdiys.com/smartdiys-creator/" target="_blank">this guide page</a> and download the installer for your operating system.
 
 2. Run the downloaded installer.
-3. If you are using Windows and a security warning (SmartScreen) is displayed, click "Detailed Information", confirm that the issuer is "SMARTDIYS CO., Ltd.", and click the "Run" button.
 
-<p align="center">
-<img alt="SmartScreen" src="./images/install/SmartScreen1_guide.png" style="width:70%">
-</p>
-<p align="center">
-<img alt="SmartScreen" src="./images/install/SmartScreen2_guide.png" style="width:70%">
-</p>
 
 ---
 4. The installation screen is displayed, and click the "Next" button.
