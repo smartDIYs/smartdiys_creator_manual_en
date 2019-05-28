@@ -8,33 +8,27 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 
 2. Run the downloaded installer.
 
-
----
-4. The installation screen is displayed, and click the "Next" button.
+3. The installation screen is displayed, and click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_1.png" style="width:70%">
 </p>
 
----
-5. Make sure that SmartDIYs Creator is already installed. If already installed, it will be uninstalled.
+4. Make sure that SmartDIYs Creator is already installed. If already installed, it will be uninstalled.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_2.png" style="width:70%">
 </p>
 
----
-6. When the check is complete, click the "Next" button.
+5. When the check is complete, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_3.png" style="width:70%">
 </p>
 
----
-7. Specify the installation destination folder. If there are no changes, click the "Next" button.
+6. Specify the installation destination folder. If there are no changes, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_4.png" style="width:70%">
 </p>
 
----
-8. Check the installation status of FABOOLSoftware driver. If it is installed, it will be uninstalled.   
+7. Check the installation status of FABOOLSoftware driver. If it is installed, it will be uninstalled.   
 ※ It may take some time depending on the PC environment.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_5.png" style="width:70%">
@@ -43,27 +37,23 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 <img alt="SmartScreen" src="./images/install/win_install_6.png" style="width:70%">
 </p>
 
----
-9. When the check is complete, click the "Next" button.
+8. When the check is complete, click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_7.png" style="width:70%">
 </p>
 
----
-10. The components to be installed are displayed. Make sure that all items are checked, and click the "Next" button.
+9. The components to be installed are displayed. Make sure that all items are checked, and click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_8.png" style="width:70%">
 </p>
 
----
-11. Confirm the displayed license terms, and if you agree, check "I accept the license" and click the "Next" button.   
+10. Confirm the displayed license terms, and if you agree, check "I accept the license" and click the "Next" button.   
 ※ If you do not agree with the license, you can not complete the installation.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_9.png" style="width:70%">
 </p>
 
----
-12. Click the Install button to begin installation.
+11. Click the Install button to begin installation.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_10.png" style="width:70%">
 </p>
@@ -71,20 +61,17 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 <img alt="SmartScreen" src="./images/install/win_install_11.png" style="width:70%">
 </p>
 
----
-13. If you are using Windows, installation of device driver will start during installation, so click “Next” to install.
+12. If you are using Windows, installation of device driver will start during installation, so click “Next” to install.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_12.png" style="width:70%">
 </p>
 
----
-14. When the device driver installation is complete, click the "Finish" button.
+13. When the device driver installation is complete, click the "Finish" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_13.png" style="width:70%">
 </p>
 
----
-15. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.
+14. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_14.png" style="width:70%">
 </p>
