@@ -71,7 +71,7 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 <img alt="SmartScreen" src="./images/install/win_install_13.png" style="width:70%">
 </p>
 
-<p>14. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.</p>
+14. The installation complete screen is displayed and click the "Finish" button. If "Run Application" is checked at this time, SmartDIYs Creator starts automatically.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_14.png" style="width:70%">
 </p>
