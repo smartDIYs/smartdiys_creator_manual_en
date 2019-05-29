@@ -81,5 +81,5 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 SmartDIYs Creator constantly sends control information to the processing machine during processing. Therefore, if the PC goes into sleep mode or the application becomes inactive, sending of control information to the processing machine may be interrupted or the connection priority may be lowered. In order to avoid this, it is recommended to cancel the sleep setting referring to the following.
 
 
-- [How to cancel the sleep setting（Windows）](https://www.lifewire.com/change-windows-sleep-settings-4143310)
-- [How to cancel the sleep setting（Mac）](https://support.apple.com/kb/PH25222?locale=en_US)
+<p><a href="https://www.lifewire.com/change-windows-sleep-settings-4143310" target="_blank">How to cancel the sleep setting（Windows）</a></p>
+<p><a href="https://support.apple.com/kb/PH25222?locale=en_US" target="_blank">How to cancel the sleep setting（Mac）/a></p>
