@@ -31,36 +31,36 @@ Click an item displayed in the item list to display and set the processing param
 
 
 ## Menu bar
-### file
+### File
 - New Project: Create a new project.
 - Open Project: Open a saved project.
 - Save Project: Save the currently open project.
 - Save Project As: Save the currently open project as an alias.
 
-### edit
-- Revert: Restore the project editing state to the previous state.
-- Start Over: Advance the project editing state to the next state.
+### Edit
+- Undo: Restore the project editing state to the previous state.
+- Redo: Advance the project editing state to the next state.
 - Copy: Copy the selected graphic object to the paste buffer.
 - Paste: Paste the copied graphic object.
-Delete: Delete the selected item.
+- Delete: Delete the selected item.
 
-### select
+### Selection
 - Select All: Select all graphic objects.
 
-### Processing machine
+### Machine
 - Stop operation: Stop the operation of the processing machine.
-- Origin return: Send an origin return instruction to the processing machine.
+- Go to Origin: Send an origin return instruction to the processing machine.
 - Create Grid Item: Create the grid displayed on the graphic area as a processing item.
 
-### User dictionary
-- User dictionary manager: Open the User dictionary manager. You can edit, import / export, etc. the user dictionary.
+### UserDictionary
+- UserDictionary Manager: Open the User dictionary manager. You can edit, import / export, etc. the user dictionary.
 
 ### Setting
-- User settings: Various settings can be made.
+- User Setting: Various settings can be made.
 
 ### Help
 - About SmartDIYs Creator: You can check the version information of the software.
-- Manual: Open this manual in a browser.
+- Open Software Manual: Open this manual in a browser.
 
 
 ## Processing machine control area
@@ -72,10 +72,10 @@ Delete: Delete the selected item.
 In this area, you can get information about the processing machine and give operation instructions to the processing machine. The connection status with the processing machine is displayed as "connected" or "not connected". Also, if there is an error, the content of the error is also displayed.
 
 - Estimated processing time: Show the approximate machining time of the current project in hours: minutes 'seconds".
-- Origin return: The processing machine checks the origin position of the laser head and eliminates the error of the head position.
-- Position check: Switch to position check mode. In this mode, the icon of the laser head is displayed in the graphic area, and you can confirm the actual processing position of the object. Click this icon again to cancel the position check mode.
-- Range confirmation: The laser head of the processing machine indicates the processing range.
-- Stop operation: Stop the operation of the processing machine.
+- Return to Origin : The processing machine checks the origin position of the laser head and eliminates the error of the head position.
+- Position: Switch to position check mode. In this mode, the icon of the laser head is displayed in the graphic area, and you can confirm the actual processing position of the object. Click this icon again to cancel the position check mode.
+- Check Area: The laser head of the processing machine indicates the processing range.
+- Stop: Stop the operation of the processing machine.
 - START: When the button is pressed, a confirmation dialog is displayed and processing starts.
 
 
@@ -93,7 +93,7 @@ In this area, you can get information about the processing machine and give oper
 - (6) Paste: Paste the copied graphic object.
 - (7) Delete: Delete the selected item.
 - (8) Undo: Restore the project editing state to the previous state.
-- (9) Start Over: Advance the project editing state to the next state.
+- (9) Redo: Advance the project editing state to the next state.
 
 
 ## Property palette
@@ -109,7 +109,7 @@ Under normal conditions, you can display and edit the coordinate information of 
 - Y: Show Y coordinate of graphic object. Coordinates can be specified by changing this number.
 - W: Show the width of the graphic object. Width can be specified by changing this number.
 - H: Show the height of the graphic object.Height can be specified by changing this number.
-- Fix aspect ratio: In this mode, when width / height is specified in the above operation, height / width is automatically set to fix aspect ratio. You can cancel / set the mode by clicking this button.
+- Constrain Width And Height Proportions: In this mode, when width / height is specified in the above operation, height / width is automatically set to fix aspect ratio. You can cancel / set the mode by clicking this button.
 - Rotate: Show the rotation of a graphic object. Rotation can be specified by changing this number.
 
 
@@ -123,7 +123,7 @@ In position check mode, you can display and specify the coordinates of the laser
 
 - X: Show X coordinate of laser head. You can move to the coordinate position by changing this number.
 - Y: Show Y coordinate of laser head. You can move to the coordinate position by changing this number.
-- Set User Origin: You can set the current coordinates as the user origin.
+- Set UserOrigin: You can set the current coordinates as the user origin.
 
 ## Graphic area
 This is an area to lay out the processing data.
@@ -132,9 +132,9 @@ This is an area to lay out the processing data.
 
 ## Item list
 - Add Item: Click to display a menu and you can add items to the project.
-- File select: Add a local file.
-- Asset Catalog: Adds figures etc. provided in this software.
-- Create Text: Create and add text objects.
+- Select File: Add a local file.
+- From Catalog: Adds figures etc. provided in this software.
+- Text Item: Create and add text objects.
 
 Added Items can be checked from the list. Processing is performed in the order of this list.
 
@@ -147,5 +147,5 @@ You can also switch the display mode by clicking the icon at the bottom of the i
 Click an item displayed in the item list to display and set the processing parameters of the item.
 
 - Manual: You can set Enables / disables of item processing and parameters manually.You can also register the set parameters in the user dictionary.
-- User dictionary: You can select the registered parameter.
+- UserDictionary: You can select the registered parameter.
 - Preset: Processing parameters estimated by our company (The processing result depends on the characteristics of the material actually processed and the adjustment accuracy of the machine)

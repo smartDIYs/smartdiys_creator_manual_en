@@ -1,4 +1,3 @@
-# Graphic area control
 
 ## Display area control
 The display area of the canvas area can be manipulated with the `pan tool` or the `zoom tool`. You can also control using the following operation method.

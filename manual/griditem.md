@@ -46,5 +46,5 @@ FABOOL Laser Mini 1.6W
 
 | ![Metal&Lacquer](./images/griditem/metal_lacquer.jpg) | ![Cardboard](./images/griditem/cardboard.jpg) |
 |:------------------------------------------------------|:----------------------------------------------|
-| 金属板 + ラッカー塗装                                 | ダンボール                                    |
+| Metal plate + lacquer-finished                                | cardboard                                    |
 | S300 / P100 / T2                                      | S2000 / P100 / T1                             |

@@ -11,18 +11,18 @@ Registering frequently used parameters into the user dictionary simplifies param
 Follow the procedure below to register in the user dictionary.
 1. Open the "Manual" tab of the parameter setting window.
 1. Set any parameter. Please skip if already set.
-1. When you click the "Register to Dictionary" button, the parameter edit dialog is displayed.
+1. When you click the "record to dictionary" button, the parameter edit dialog is displayed.
 1. Enter the name of the parameter and, if necessary, a descriptive text.
 1. When the OK button is pressed, it is registered in the user dictionary.
 
 ### Use of user dictionary
 Perform the following operations to use the user dictionary.
-1. Open the "User dictionary" tab of the parameter setting window.
+1. Open the "UserDictionary" tab of the parameter setting window.
 1. Click any parameter and check the parameter settings.
 1. Click Apply button.
 
 ### Edit parameters registered in user dictionary
-1. Open the "User dictionary" tab of the parameter setting window.
+1. Open the "UserDictionary" tab of the parameter setting window.
 1. Double-click the target parameter to display the parameter edit dialog.
 1. Enter an arbitrary value for each setting value.
 1. When the OK button is pressed, parameter editing is complete.
@@ -34,7 +34,7 @@ Perform the following operations to use the user dictionary.
 </p>
 
 <!-- ### UserOrigin -->
-If you select [Parameters]> [User Dictionary Manager] on the menu bar, the User Dictionary Manager dialog will be displayed. Here you can perform operations such as import and export of user dictionary and bulk deletion.
+If you select [UserDictionary]> [UserDictionary Manager] on the menu bar, the User Dictionary Manager dialog will be displayed. Here you can perform operations such as import and export of user dictionary and bulk deletion.
 
 ### Export user dictionary
 1. Press the export button to display the export dialog.

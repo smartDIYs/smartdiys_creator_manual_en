@@ -19,7 +19,7 @@ By setting the user origin, the origin set near the normal limit switch can be s
 - Perform origin return.
 - Click the position check button to switch to position check mode.
 - Move the laser head to any position or enter a numerical number.
-- Click the "Set User Origin" button.
+- Click the "Set UserOrigin" button.
 
 
 <p align="center">
@@ -28,7 +28,7 @@ By setting the user origin, the origin set near the normal limit switch can be s
 
 ## How to cancel user origin
 - Click the position check button to switch to position check mode.
-- Click the "Cancel User Origin" button.
+- Click the "Reset UserOrigin" button.
 
 <p align="center">
 <img alt="ResetUserOrigin" src="./images/userorigin/resetuserorigin.png" style="width:80%">

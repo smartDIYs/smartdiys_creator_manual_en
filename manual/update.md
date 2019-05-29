@@ -5,7 +5,7 @@ This section explains how to update.
 When updating software, download the latest version of the installer from the site below and install it.  
 **※ Please be sure to close the running SmartDIYs Creator when installing.**
 
-[SmartDIYs Creator download page](https://www.smartdiys.com/smartdiys-creator/)
+[SmartDIYs Creator download page](https://www.smartdiys.cc/pages/smartdiys-creator)
 
 When installing the latest version, previous version software will be uninstalled automatically, but user dictionaries of user settings and parameters will be retained.
 
@@ -14,4 +14,4 @@ When installing the latest version, previous version software will be uninstalle
 You can check the current software version by clicking `Menu bar`> `Help`> `About SmartDIYs Creator`.
 
 ## Update notification
-Check "Enable update notification" in `Menu Bar`> `User Settings`> `Other` to display a notification when a new version is released. 
+Check "Enable update notification" in `Menu Bar`> `User Settings`> `Other` to display a notification when a new version is released.

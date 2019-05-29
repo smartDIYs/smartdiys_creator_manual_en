@@ -15,10 +15,10 @@ First, click the "Add Item" button in the Item List panel, and add a processing 
 If you want to import your own image data (jpg / png / svg etc), please click "Select File" button. The file selection dialog opens, and you can import it by selecting the target file. You can also import by dragging and dropping the target file into the graphic area.
 
 - `Import from asset catalog`  
-Click "Asset Catalog" to use the figures and sample data provided in the software. The asset catalog will open and you can select and import your favorite data.
+Click "From Catalog" to use the figures and sample data provided in the software. The asset catalog will open and you can select and import your favorite data.
 
 - `Create text item`  
-Click the "Create Text" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".  
+Click the "Text Item" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".  
 ※ We do not cope with vertical writing and line feed.
 
 ### Layout editing
@@ -30,7 +30,7 @@ When you click the target item in the item list, the parameter setting window is
 - `Manual`  
   You can set the processing parameters of the item manually. You can also register the set parameters in the user dictionary.
 
-- `User dictionary`  
+- `User Dictionary`  
   Apply the parameters registered in the user dictionary.
 
 - `Preset`  
@@ -59,7 +59,7 @@ Move the laser head directly above the material using the software's “position
 </p>
 
 ### Confirmation of processing range
-If necessary, please check the processing range for the material. Please use "Position check" or "Range check" to check the processing range.
+If necessary, please check the processing range for the material. Please use "Check Position" or "Check Area" to check the processing range.
 
 ## Processing start
 
