@@ -73,8 +73,3 @@ Method: arcsin (0.75 / 400.00) * 180 / π
 Setting value:
 To correct diagonally right up:-0.10743 °
 To correct diagonally right down: + 0.10743 °
-※ Please use this automatic calculation function
-W length: 400mm
-L length: 1.5mm
-The correction value is ±.
-```
