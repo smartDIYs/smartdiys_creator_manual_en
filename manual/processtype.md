@@ -92,6 +92,6 @@ If you use AutoCAD 2018 or LibreCAD, you can colorize the layers by coloring the
 
 On the other hand, the DXF format has many dialects for each software, and some software may not recognize the color even if it is exported by the above method. In that case, please export as SVG or use software or online service for converting SVG.
 
-- [https://www.dxfconverter.org/](https://www.dxfconverter.org/)
-- [https://convertio.co/ja/dxf-svg/](https://convertio.co/ja/dxf-svg/)
-- [https://onlineconvertfree.com/ja/convert-format/dxf-to-svg/](https://onlineconvertfree.com/ja/convert-format/dxf-to-svg/)
+- <a href="https://www.dxfconverter.org/" target="_blank">https://www.dxfconverter.org/</a>
+- <a href="https://convertio.co/dxf-svg/" target="_blank">https://convertio.co/dxf-svg/</a>
+- <a href="https://onlineconvertfree.com/convert-format/dxf-to-svg/" target="_blank">https://onlineconvertfree.com/convert-format/dxf-to-svg/</a>

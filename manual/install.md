@@ -4,7 +4,7 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 
 ## Software installation
 
-1.Please check the terms of the agreement on <a href="https://www.smartdiys.com/smartdiys-creator/" target="_blank">this guide page</a> and download the installer for your operating system.
+1.Please check the terms of the agreement on <a href="https://www.smartdiys.cc/pages/smartdiys-creator" target="_blank">this guide page</a> and download the installer for your operating system.
 
 2.Run the downloaded installer.
 
@@ -81,6 +81,5 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 SmartDIYs Creator constantly sends control information to the processing machine during processing. Therefore, if the PC goes into sleep mode or the application becomes inactive, sending of control information to the processing machine may be interrupted or the connection priority may be lowered. In order to avoid this, it is recommended to cancel the sleep setting referring to the following.
 
 
-- [How to cancel the sleep setting（Windows 10）](https://www.tipsfound.com/windows10/03005)
-- [How to cancel the sleep setting（Windows 7）](https://www.frontier-direct.jp/faq/09/004235.htm)
-- [How to cancel the sleep setting（Mac）](http://minto.tech/mac-sleep/)
+- [How to cancel the sleep setting（Windows）](https://www.lifewire.com/change-windows-sleep-settings-4143310)
+- [How to cancel the sleep setting（Mac）](https://support.apple.com/kb/PH25222?locale=en_US)
