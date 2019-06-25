@@ -38,7 +38,7 @@ This parameter is valid for raster processing. Set the definition when performin
 ※ It can be set individually according to the material characteristics or processing time efficiency.
 ```
 
-Imprinted cardboard with FABOOL Laser Mini 3.5W / Use image: 1023x778 pixels
+Imprinted cardboard with Etcher Laser Mini 3.5W / Use image: 1023x778 pixels
 
 <p align="center">
 <img alt="SmartScreen" src="./images/parameter/rasterDPI.jpg" style="width:70%">

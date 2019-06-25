@@ -1,4 +1,4 @@
-This section describes the types of laser processing in the FABOOL series and the corresponding image formats.
+This section describes the types of laser processing in the Etcher Laser and the corresponding image formats.
 
 ## Vector (line) processing
 

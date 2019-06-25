@@ -4,7 +4,7 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 
 ## Software installation
 
-1.Please check the terms of the agreement on <a href="https://www.smartdiys.cc/pages/smartdiys-creator" target="_blank">this guide page</a> and download the installer for your operating system.
+1.Download the installer for your operating system.<br><a href="https://etcherlaser.com/pages/smartdiys-creator" target="_blank">https://etcherlaser.com/pages/smartdiys-creator</a>
 
 2.Run the downloaded installer.
 
