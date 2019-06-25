@@ -82,4 +82,4 @@ SmartDIYs Creator constantly sends control information to the processing machine
 
 
 <p><a href="https://www.lifewire.com/change-windows-sleep-settings-4143310" target="_blank">How to cancel the sleep setting（Windows）</a></p>
-<p><a href="https://support.apple.com/kb/PH25222?locale=en_US" target="_blank">How to cancel the sleep setting（Mac）/a></p>
+<p><a href="https://support.apple.com/kb/PH25222?locale=en_US" target="_blank">How to cancel the sleep setting（Mac）</a></p>
