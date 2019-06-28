@@ -30,7 +30,10 @@ Adjust the current value flowing to the motor. It is not necessary to change usu
 You can set the grid spacing, the rectangle display unit of objects, etc. to mm or inch.
 
 ### Display
-You can show or hide the grid.
+You can show or hide the grid.<br/>
+You can also set the grid spacing and number of divisions.
+Basic grids appear gray on the campus, and split grids appear as red dotted lines.
+If the division number is 1, only the basic grid is displayed.
 
 ### Preview
 Specify the line width at preview. By setting the actual laser width, you can get close to the impression of the finish.
