@@ -36,7 +36,7 @@ Basic grids appear gray on the campus, and split grids appear as red dotted line
 If the division number is 1, only the basic grid is displayed.
 
 ### Preview
-Specify the line width at preview. By setting the actual laser width, you can get close to the impression of the finish.
+Specify the line width at preview. By setting the actual laser width, you can get close to the impression of the final product.
 
 ---------------
 ## Seek speed
