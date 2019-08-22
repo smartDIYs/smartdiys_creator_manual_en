@@ -10,12 +10,14 @@ Clicking an object selects the object and displays the controller. You can contr
 
 ### Position control
 You can move the object to any position by dragging the controller. You can also move it with the arrow keys on your keyboard.
+When dragging, you can fix the direction of movement by pressing the `Shift` key.
 
 ### Size control
 You can drag the grips at the corners of the controller to any size. When dragging, hold down the `Shift` key to switch the aspect ratio fixed.
 
 ### Rotation control
 When the mouse cursor approaches the grip of the controller, the cursor icon becomes a mark of the rotation control. You can rotate it to any angle by dragging in this state.
+When dragging, press the `Shift` key to rotate 45 degrees.
 
 ### Object replication
 With the object selected, you can copy to the paste buffer by clicking the copy icon. In this state, you can replicate objects by clicking the paste icon. At this time, the laser parameters linked to the object are shared with the copy source object.
