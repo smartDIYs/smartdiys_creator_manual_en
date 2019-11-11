@@ -42,7 +42,7 @@ If the old software driver (smartLaser driver / faboolLaser driver) is installed
 <img alt="SmartScreen" src="./images/install/win_install_7.png" style="width:70%">
 </p>
 
-9.The components to be installed are displayed. Make sure that all items are checked, and click the "Next" button.
+9.The components to be installed are displayed. Make sure that the required components are checked and click the "Next" button.
 <p align="center">
 <img alt="SmartScreen" src="./images/install/win_install_8.png" style="width:70%">
 </p>

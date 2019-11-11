@@ -21,6 +21,11 @@ Click "From Catalog" to use the figures and sample data provided in the software
 Click the "Text Item" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".  
 ※ We do not cope with vertical writing and line feed.
 
+- `Scan (EtcherLaser only)`  
+Click the "Scan" button to create a item scanned with the camera of machine.  You can select an original image (raster), fill (vector fill), or outline (vector stroke). Be careful not to hide the camera marker with an obstacle.  
+※ The button is disabled when the top cover is closed.
+
+
 ### Layout editing
 Adding an item places a graphic object on the canvas. Set the position, size, and rotation angle of the placed object.
 
@@ -66,9 +71,19 @@ If necessary, please check the processing range for the material. Please use "Ch
 ---------------
 
 ### Safety check items
+
+#### FABOOL Series
 - Is the height of the laser head appropriate?
 - Are there any obstacles in the processing area or near the processing machine?
 - Is the base on which the material is placed hard to burn?  
+(Laser light may reach depending on the thickness of the material)
+- Is the processing range within the material being arranged?
+
+#### EtcherLaser
+- Is the height of the laser head appropriate?
+- Are there any obstacles in the processing area or near the processing machine?
+- Is the bottom plate closed properly?
+- When processing with the bottom open, the base on which the material is placed hard to burn?  
 (Laser light may reach depending on the thickness of the material)
 - Is the processing range within the material being arranged?
 
