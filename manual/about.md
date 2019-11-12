@@ -1,4 +1,4 @@
-SmartDIYs Creator is software for machining compatible with FABOOL Laser series and EtcherLaser. This is software that takes in image data, edits the layout, sets laser parameters, and performs processing.
+SmartDIYs Creator is software for laser processing, compatible with the FABOOL Laser series and EtcherLaser. This is software that takes in image data, edits the layout, sets laser parameters, and performs processing.
 
 ---
 

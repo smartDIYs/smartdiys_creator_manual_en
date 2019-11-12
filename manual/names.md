@@ -57,7 +57,7 @@ Click an item displayed in the item list to display and set the processing param
 
 ### Setting
 - User Setting: Various settings can be made.
-- EtcherLaser: (EtcherLaser only) If there is a discrepancy between the camera position and the processing result, you can correct the position using offset. You can also upgrade the firmware version.
+- EtcherLaser: (EtcherLaser only) If there is a discrepancy between the camera position and the processing result, you can correct the position using the offset function. You can also upgrade the firmware version.
 
 ### Help
 - About SmartDIYs Creator: You can check the version information of the software.
@@ -95,9 +95,8 @@ In this area, you can get information about the processing machine and give oper
 - (7) Delete: Delete the selected item.
 - (8) Undo: Restore the project editing state to the previous state.
 - (9) Redo: Advance the project editing state to the next state.
-- (10) Capture: The range of the processing area captured with the camera of the processing machine is displayed on the canvas. Be careful not to hide the camera marker with an obstacle.  
-※ There is a bit of a discrepancy may occur in the display position due to lens distortion.
-
+- (10) Capture: The range of the processing area is captured with the camera of the machine and displayed on the canvas. Be careful not to cover the camera markers with any materials.  
+※ A small amount of discrepancy may occur in the display position due to lens distortion.
 
 ## Property palette
 ### When graphic object is selected

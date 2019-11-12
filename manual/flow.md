@@ -22,7 +22,7 @@ Click the "Text Item" button to create a processing item of any character. You c
 ※ We do not cope with vertical writing and line feed.
 
 - `Scan (EtcherLaser only)`  
-Click the "Scan" button to create a item scanned with the camera of machine.  You can select an original image (raster), fill (vector fill), or outline (vector stroke). Be careful not to hide the camera marker with an obstacle.  
+Click the "Scan" button to create an item scanned with the camera of machine.  You can select an original image (raster), fill (vector fill), or outline (vector stroke). Be careful not to block or obscure the camera markers.  
 ※ The button is disabled when the top cover is closed.
 
 
@@ -73,19 +73,19 @@ If necessary, please check the processing range for the material. Please use "Ch
 ### Safety check items
 
 #### FABOOL Series
-- Is the height of the laser head appropriate?
+- Is the height of the laser head correctly adjusted?
 - Are there any obstacles in the processing area or near the processing machine?
-- Is the base on which the material is placed hard to burn?  
-(Laser light may reach depending on the thickness of the material)
-- Is the processing range within the material being arranged?
+- Is the base under the material safe from burning?  
+(Laser light may reach the base depending on the thickness of the material)
+- Is the processing range completely over the material?
 
 #### EtcherLaser
-- Is the height of the laser head appropriate?
+- Is the height of the laser head correctly adjusted?
 - Are there any obstacles in the processing area or near the processing machine?
 - Is the bottom plate closed properly?
-- When processing with the bottom open, the base on which the material is placed hard to burn?  
-(Laser light may reach depending on the thickness of the material)
-- Is the processing range within the material being arranged?
+- When processing with the bottom open, is the base under the material safe from burning?  
+(Laser light may reach the base depending on the thickness of the material)
+- Is the processing range completely over the material?
 
 ---------------
 
