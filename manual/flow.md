@@ -68,9 +68,9 @@ If necessary, please check the processing range for the material. Please use "Ch
 
 ## Processing start
 
----------------
-
 ### Safety check items
+
+---------------
 
 #### FABOOL Series
 - Is the height of the laser head correctly adjusted?
