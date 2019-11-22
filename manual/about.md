@@ -29,7 +29,7 @@ png / jpg / bmp / gif / tif / svg / dxf (R12)
 
 
 ## Document Disclaimer
-- Screen shots, etc. of this manual may differ from the actual display of the software.
+- Screen shots, etc. in this manual may differ from the actual display of the software.
 - Contents may be updated without notice.
 - Please note that we cannot accept any responsibility for detriment, lost profits, etc. due to the operation of this product.
 - Microsoft Windows is either a registered trademark or trademark in the United States and / or other countries of Microsoft Corporation in the United States.
