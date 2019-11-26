@@ -33,7 +33,7 @@ Specify the number of times of laser processing. If a large amount of energy at 
 This parameter is used for raster processing. Set the definition when performing processing (dithering) to express the tone of the image. By default, 254 DPI (dots per inch) is set, which is the value at which the laser is emitted every 0.1 mm. Also, unlike LCD etc., the size of the laser irradiation point itself does not change even if DPI is raised. Please be aware that if you raise the DPI too high the image will be burned too much.
 
 ```
-※ You can set in the range of 72-300 [DPI].
+※ You can set in the range of 72-600 [DPI].
 ※ All the images below are engraved with the same image data and the same processing size.
 ※ It can be set individually according to the material characteristics or processing time efficiency.
 ```
