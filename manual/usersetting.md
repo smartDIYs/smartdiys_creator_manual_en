@@ -39,7 +39,7 @@ If the division number is 1, only the basic grid is displayed.
 Specify the line width at preview. By setting the actual laser width, you can get close to the impression of the final product.
 
 ---------------
-## Seek speed
+## Processing
 
 <!-- <p align="center">
 <img alt="SmartScreen" src="./images/usersetting/settings_3.png" style="width:70%">
@@ -52,10 +52,13 @@ Default mode: Set the seek speed to the specified value.
 Quality mode: Set the seek speed to the processing speed.  
 ※ During raster processing and hatching processing (during vector painting processing), operations are always performed according to the Quality mode.
 
-
 ### Seek speed (during maintenance)
 You can set the moving speed of the laser head for position check and range check.
 
+### Iterative processing (vector stroke)
+If this setting is enabled, the processing order during cutting will be affected.  
+Example: When there are multiple pieces for a single vector item (i.e., a "◯" and a "△" as part of one item), and "Times" is set as 2 or more, the machine will process like items together.  
+[Enable]: ◯ > ◯ > △ > △  |  [Disable]: ◯ > △ > ◯ > △
 
 ---------------
 ## Correction
