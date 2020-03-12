@@ -114,7 +114,7 @@
 <tr>
 <td align="left">2020.3.12</td>
 <td align="left">v1.2.0</td>
-<td align="left">Update frameworks<br>Support for macOS 10.15 Gatekeeper<br>Add user setting items for iterative processing<br>Add new assets<br>Improvement of UI/UX<br>Modified the small bug</td>
+<td align="left">Update frameworks<br>Support for macOS 10.15 Gatekeeper<br>Add setting items for iterative processing<br>Add new assets<br>Improvement of UI/UX<br>Modified the small bug</td>
 <td align="left">
 <a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.0/SmartDIYsCreator_offline_installer_mac-v1.2.0.dmg">mac</a>
 /
