@@ -22,7 +22,8 @@ png / jpg / bmp / gif / tif / svg / dxf (R12)
 
 
 #### macOS
-- OS 10.11.6 El capitan or later
+- OS 10.12.1 Sierra or later  
+  ※ If you are using 10.11.6, please use [version 1.1.5 or earlier](https://manual.smartdiys.cc/smartdiys-creator-release-notes/).
 - CPU：Core M 1.1Ghz or higher
 - RAM：equal to or greater than 4GB
 - HDD：free capacity equal to or more than 1GB
