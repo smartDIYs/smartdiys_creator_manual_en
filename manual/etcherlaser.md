@@ -28,13 +28,23 @@ If the update is possible, the button will be enabled.
 
 
 ## Scan
-Click the "Scan" button to create an item scanned with the camera of the machine.  
+
+<p align="center">
+<img alt="EtcherLaser" src="./images/etcherlaser/scan.png" style="width:70%">
+</p>
+
+Click the "From Scan" button to create an item scanned with the camera of the machine.  
 You can select an original image (raster), fill (vector fill), or outline (vector stroke).  
 Be careful not to block or obscure the camera markers.  
 ※ The button is disabled when the top cover is closed.
 
 
 ## Capture
+
+<p align="center">
+<img alt="EtcherLaser" src="./images/etcherlaser/capture.png" style="width:70%">
+</p>
+
 The processing area is captured with the camera of the machine and displayed on the canvas.  
 Be careful not to cover the camera markers with any materials.  
 ※ A small amount of discrepancy may occur in the display position due to lens distortion.  
