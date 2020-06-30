@@ -1,13 +1,13 @@
-This section describes the functions for Etcher Laser.
+This section describes the functions for the Etcher Laser.
 
 ```
-If you are using EthcerLaser, make sure you have set the "Model Type" in the user settings to "EtcherLaser".
+If you are using the Etcher Laser, make sure you have set the "Model Type" in the user settings to "Etcher Laser".
 If the software and Etcher Laser are not connected, some functions will be disabled.
 ```
 
-## EtcherLaser dialog
+## Etcher Laser dialog
 
-Click `Menu bar`> `Setting`> `EtcherLaser` to display the EtcherLaser dialog.
+Go to the Menu bar, and click `Setting`> `EtcherLaser` to display the Etcher Laser dialog.
 
 <p align="center">
 <img alt="EtcherLaser" src="./images/etcherlaser/etcherlaserdialog.png" style="width:70%">
@@ -15,27 +15,27 @@ Click `Menu bar`> `Setting`> `EtcherLaser` to display the EtcherLaser dialog.
 
 
 ### Position Correction
-If there is a gap between the position of the captured image of the camera and the actual processing result, adjust this value.
+If there is a difference between the position of the captured image of the camera and the actual processing result, adjust this value.
 
 ### Passcode Lock
-You can set a 4-digit passcode on Etcher Laser to restrict its use.
-EtcherLaser with passcode cannot be operated without passcode authentication when connecting.
+You can set a 4-digit passcode on the Etcher Laser to restrict its use.
+The Etcher Laser with passcode cannot be operated without passcode authentication when connecting.
 This function can be enabled/disabled.
 
 ### Firmware
-You can update the firmware of Etcher Laser.
+You can update the firmware of the Etcher Laser.
 If the update is possible, the button will be enabled.
 
 
 ## Scan
-Click the "Scan" button to create an item scanned with the camera of machine.  
+Click the "Scan" button to create an item scanned with the camera of the machine.  
 You can select an original image (raster), fill (vector fill), or outline (vector stroke).  
 Be careful not to block or obscure the camera markers.  
 ※ The button is disabled when the top cover is closed.
 
 
 ## Capture
-The range of the processing area is captured with the camera of the machine and displayed on the canvas.  
+The processing area is captured with the camera of the machine and displayed on the canvas.  
 Be careful not to cover the camera markers with any materials.  
 ※ A small amount of discrepancy may occur in the display position due to lens distortion.  
 ※ The button is disabled when the top cover is closed.
@@ -58,4 +58,4 @@ Enter the height from the work area to the capture surface.
 #### When straight lines are distorted and captured
 It may be caused by the distortion of the camera lens.  
 When manufacturing a lens, it is difficult to make a perfect spherical surface, and slight irregularities may affect the capture result, resulting in a maximum deviation of 2 to 3 mm.  
-Since this is an unavoidable problem in manufacturing, we would appreciate your understanding.
+Since this is an unavoidable problem in manufacturing, we appreciate your understanding.
