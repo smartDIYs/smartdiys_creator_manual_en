@@ -131,4 +131,14 @@
 <a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.1/SmartDIYsCreator_offline_installer_win-v1.2.1.exe">win</td>
 </tr>
 
+<tr>
+<td align="left">2020.7.6</td>
+<td align="left">v1.2.2</td>
+<td align="left">SVG analysis bug fix<br>Add passcode lock function for the Etcher Laser<br>Add shortcut key for process start<br>Add of the function to scaling the graphic object by center<br>Improvement of UI/UX<br>Modified the small bug</td>
+<td align="left">
+<a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.2/SmartDIYsCreator_offline_installer_mac-v1.2.2.dmg">mac</a>
+/
+<a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.2/SmartDIYsCreator_offline_installer_win-v1.2.2.exe">win</td>
+</tr>
+
 </tbody></table>

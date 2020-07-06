@@ -1,4 +1,5 @@
-This section explains the parameter settings.
+This section explains the parameter settings.  
+Parameter setting window is displayed by clicking the item displayed in the item list.
 
 <p align="center">
 <img alt="UserOrigin" src="./images/parameter/about.png" style="width:50%">

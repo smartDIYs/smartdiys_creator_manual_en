@@ -13,7 +13,7 @@ You can move the object to any position by dragging the controller. You can also
 When dragging, you can fix the direction of movement by pressing the `Shift` key.
 
 ### Size control
-You can drag the grips at the corners of the controller to any size. When dragging, hold down the `Shift` key to switch the aspect ratio fixed.
+You can drag the grips at the corners of the controller to any size. When dragging, hold down the `Shift` key to switch the aspect ratio fixed. You can also enlarged or reduced based on the center point of the object by pressing the `Alt` key.
 
 ### Rotation control
 When the mouse cursor approaches the grip of the controller, the cursor icon becomes a mark of the rotation control. You can rotate it to any angle by dragging in this state.
