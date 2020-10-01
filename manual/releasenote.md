@@ -141,4 +141,14 @@
 <a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.2/SmartDIYsCreator_offline_installer_win-v1.2.2.exe">win</td>
 </tr>
 
+<tr>
+<td align="left">2020.10.1</td>
+<td align="left">v1.2.3</td>
+<td align="left">Avoid crashes when loading certain DXF data<br>Fixed a bug related to warning display<br>Add new assets<br>Improvement of UI/UX<br>Modified the small bug</td>
+<td align="left">
+<a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.3/SmartDIYsCreator_offline_installer_mac-v1.2.3.dmg">mac</a>
+/
+<a href="http://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.3/SmartDIYsCreator_offline_installer_win-v1.2.3.exe">win</td>
+</tr>
+
 </tbody></table>
