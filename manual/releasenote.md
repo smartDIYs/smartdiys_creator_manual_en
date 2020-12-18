@@ -54,7 +54,7 @@
 <tr>
 <td align="left">2019.11.9</td>
 <td align="left">v1.1.0</td>
-<td align="left">Compatible with mac<br>Improvement of UI/UX<br>SVG analysis bug fix<br>Modified the small bug</td>
+<td align="left">Compatible with EtcherLaser<br>Improvement of UI/UX<br>SVG analysis bug fix<br>Modified the small bug</td>
 <td align="left">
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.1.0/SmartDIYsCreator_offline_installer_mac-v1.1.0.dmg">mac</a>
 /
@@ -159,6 +159,16 @@
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.4/SmartDIYsCreator_offline_installer_mac-v1.2.4.dmg">mac</a>
 /
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.2.4/SmartDIYsCreator_offline_installer_win-v1.2.4.exe">win</td>
+</tr>
+
+<tr>
+<td align="left">2020.12.18</td>
+<td align="left">v1.3.0</td>
+<td align="left">Compatible with EtcherLaserPro<br/>Addition of estimated remaining time display function<br/>Improved communication protocol<br/>Improved color interpretation of DXF files<br/>Specification change of user origin function<br/>Addition of processing machine type discrimination warning<br/>Improvement of UI/UX<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.0/SmartDIYsCreator_offline_installer_mac-v1.3.0.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.0/SmartDIYsCreator_offline_installer_win-v1.3.0.exe">win</td>
 </tr>
 
 </tbody></table>
