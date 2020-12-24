@@ -174,7 +174,7 @@
 <tr>
 <td align="left">2020.12.24</td>
 <td align="left">v1.3.1</td>
-<td align="left">Fixed data error when capturing on Etcher Laser Pro<br/>Improvement of warning display on Etcher Laser Pro<br/>Fixed process stop problem under specific conditions that occurred in ver1.3.0<br/>Modified the small bug</td>
+<td align="left">Fixed capturing error on Etcher Laser Pro<br/>Improvement of warning display on Etcher Laser Pro<br/>Fixed process stop problem under specific conditions that occurred in ver1.3.0<br/>Modified the small bug</td>
 <td align="left">
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.1/SmartDIYsCreator_offline_installer_mac-v1.3.1.dmg">mac</a>
 /
