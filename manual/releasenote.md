@@ -181,4 +181,15 @@
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.1/SmartDIYsCreator_offline_installer_win-v1.3.1.exe">win</td>
 </tr>
 
+<tr>
+<td align="left">2021.1.8</td>
+<td align="left">v1.3.2</td>
+<td align="left">Add automatic interval function<br/>Improvement of Buffer overflow error<br/>Add exhaust fan setting function on Etcher Laser Pro<br/>Improvement of water temperature acquisition on Etcher Laser Pro<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.2/SmartDIYsCreator_offline_installer_mac-v1.3.2.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.2/SmartDIYsCreator_offline_installer_win-v1.3.2.exe">win</td>
+</tr>
+
+
 </tbody></table>

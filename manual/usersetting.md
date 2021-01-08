@@ -96,5 +96,13 @@ Apply shear to the object when converted to GCode to correct the machine's X-axi
 <img alt="SmartScreen" src="./images/usersetting/settings_6.png" style="width:70%">
 </p> -->
 
-### notification
+### Intervals
+You can set the automatic intervals. If the continuous processing duration is exceeded, machining will be paused for the specified duration.
+This duration is not added to the estimate time and remaining time.
+
+```
+Processing: [10 - 60] minutes / Interval: [3 - 10] minutes can be set.
+```
+
+### Notice
 Set enable / disable of automatic notification of software update. If there is a newer version, a dialog will appear when the software is launched.
