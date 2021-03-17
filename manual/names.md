@@ -143,7 +143,7 @@ Add Item: Click to display a menu and you can add items to the project.
 Added Items can be checked from the list. Processing is performed in the order of this list.
 
 ### Right click menu
-Right-click on an item to display the menu.
+You can right-click an item to display the menu.
 - Enable: Switch the setting item "Enable" of the machining parameter.
 - Delete this item: Delete the this item and object.
 - Select this objects: Select the object associated with the item. Select a group if it is grouped.
