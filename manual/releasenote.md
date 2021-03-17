@@ -191,5 +191,14 @@
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.2/SmartDIYsCreator_offline_installer_win-v1.3.2.exe">win</td>
 </tr>
 
+<tr>
+<td align="left">2021.3.17</td>
+<td align="left">v1.3.3</td>
+<td align="left">Add LED illuminance setting function on Etcher Laser Pro<br>SVG analysis bug fix<br>Improvement of functions related to communication with processing machine<br>Add object selection function from item list<br>Improvement of UI/UX<br>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.3/SmartDIYsCreator_offline_installer_mac-v1.3.3.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.3/SmartDIYsCreator_offline_installer_win-v1.3.3.exe">win</td>
+</tr>
 
 </tbody></table>
