@@ -95,7 +95,7 @@ In this area, you can get information about the processing machine and give oper
 - (7) Delete: Delete the selected item.
 - (8) Undo: Restore the project editing state to the previous state.
 - (9) Redo: Advance the project editing state to the next state.
-- (10) Capture: The range of the processing area is captured with the camera of the machine and displayed on the canvas. Be careful not to cover the camera markers with any materials.  
+- (10) Capture: The range of the processing area is captured with the camera of the machine and displayed on the canvas. Be careful not to cover the camera markers with any materials.<br/>
 ※ A small amount of discrepancy may occur in the display position due to lens distortion.
 
 ## Property palette
@@ -133,19 +133,28 @@ This is an area to lay out the processing data.
 - Scaling tools: You can manipulate the display area of the graphic area.
 
 ## Item list
-- Add Item: Click to display a menu and you can add items to the project.
+Add Item: Click to display a menu and you can add items to the project.
 - Select File: Add a local file.
 - From Catalog: Adds figures etc. provided in this software.
 - Text Item: Create and add text objects.
+- Scan: (EtcherLaser only) Create items from scanned with the camera of machine.<br/>
+※ The button is disabled when the top cover is closed.
 
 Added Items can be checked from the list. Processing is performed in the order of this list.
 
-You can also switch the display mode by clicking the icon at the bottom of the item list.
+### Right click menu
+Right-click on an item to display the menu.
+- Enable: Switch the setting item "Enable" of the machining parameter.
+- Delete this item: Delete the this item and object.
+- Select this objects: Select the object associated with the item. Select a group if it is grouped.
+
+### Display mode switching
+You can switch the display mode by clicking the icon at the bottom of the item list.
 <p align="center">
 <img alt="SmartScreen" src="./images/names/itemlist_mode.png" style="width:50%">
 </p>
 
-#### Parameter setting window
+## Parameter setting window
 Click an item displayed in the item list to display and set the processing parameters of the item.
 
 - Manual: You can set Enables / disables of item processing and parameters manually.You can also register the set parameters in the user dictionary.
