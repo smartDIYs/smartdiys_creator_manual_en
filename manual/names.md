@@ -133,7 +133,7 @@ This is an area to lay out the processing data.
 - Scaling tools: You can manipulate the display area of the graphic area.
 
 ## Item list
-Add Item: Click to display a menu and you can add items to the project.
+Click "Add Item" button to display a menu and you can add items to the project.
 - Select File: Add a local file.
 - From Catalog: Adds figures etc. provided in this software.
 - Text Item: Create and add text objects.
