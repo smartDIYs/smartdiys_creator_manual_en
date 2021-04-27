@@ -46,6 +46,7 @@ Click an item displayed in the item list to display and set the processing param
 
 ### Selection
 - Select All: Select all graphic objects.
+- Deselect: Deselect the graphic object.
 
 ### Machine
 - Stop operation: Stop the operation of the processing machine.
