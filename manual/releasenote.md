@@ -204,7 +204,7 @@
 <tr>
 <td align="left">2021.4.27</td>
 <td align="left">v1.3.4</td>
-<td align="left">Supports the latest version of Inkscape<br/>Improved Etcher Laser stop problem under certain conditions<br/>Improvement of Windows crash problem<br/>Improvement of UI/UX<br/>Modified the small bug</td>
+<td align="left">Expansion of Inkscape compatible version<br/>Improved Etcher Laser stop problem under certain conditions<br/>Improvement of Windows crash problem<br/>Improvement of UI/UX<br/>Modified the small bug</td>
 <td align="left">
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.4/SmartDIYsCreator_offline_installer_mac-v1.3.4.dmg">mac</a>
 /
