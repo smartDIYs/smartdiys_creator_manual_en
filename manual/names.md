@@ -73,7 +73,7 @@ Click an item displayed in the item list to display and set the processing param
 
 In this area, you can get information about the processing machine and give operation instructions to the processing machine. The connection status with the processing machine is displayed as "connected" or "not connected". Also, if there is an error, the content of the error is also displayed.
 
-- Estimated processing time: Show the approximate machining time of the current project in hours: minutes 'seconds".
+- Estimated processing time: Show the approximate machining time of the current project in `hours` hr `minutes` min `seconds` sec.
 - Return to Origin : The processing machine checks the origin position of the laser head and eliminates the error of the head position.
 - Position: Switch to position check mode. In this mode, the icon of the laser head is displayed in the graphic area, and you can confirm the actual processing position of the object. Click this icon again to cancel the position check mode.
 - Check Area: The laser head of the processing machine indicates the processing range.
