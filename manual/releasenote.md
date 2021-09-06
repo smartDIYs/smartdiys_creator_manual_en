@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2021.9.6</td>
+<td align="left">v1.3.5</td>
+<td align="left">Added extension function of exhaust fan of Etcher Laser Pro<br/>Added control function for exhaust fan of Etcher Laser Pro<br/>Improvement regarding water temperature acquisition of Etcher Laser Pro<br/>Correspondence to change of camera lens specifications of Etcher Laser<br/>Fixed other minor bugs</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.5/SmartDIYsCreator_offline_installer_mac-v1.3.5.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.5/SmartDIYsCreator_offline_installer_win-v1.3.5.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2021.4.27</td>
 <td align="left">v1.3.4</td>
 <td align="left">Expansion of Inkscape compatible version<br/>Improved Etcher Laser stop problem under certain conditions<br/>Improvement of Windows crash problem<br/>Improvement of UI/UX<br/>Modified the small bug</td>
