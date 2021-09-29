@@ -12,9 +12,19 @@
 <tbody>
 
 <tr>
+<td align="left">2021.9.29</td>
+<td align="left">v1.3.6</td>
+<td align="left">Improvements in scaling huge path<br/>Correspondence to change of camera lens specifications of Etcher Laser<br/>Performance improvements<br/>Improvement of UI/UX<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.6/SmartDIYsCreator_offline_installer_mac-v1.3.6.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.6/SmartDIYsCreator_offline_installer_win-v1.3.6.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2021.9.6</td>
 <td align="left">v1.3.5</td>
-<td align="left">Added extension function of exhaust fan of Etcher Laser Pro<br/>Added control function for exhaust fan of Etcher Laser Pro<br/>Improvement regarding water temperature acquisition of Etcher Laser Pro<br/>Correspondence to change of camera lens specifications of Etcher Laser<br/>Fixed other minor bugs</td>
+<td align="left">Added extension function of exhaust fan of Etcher Laser Pro<br/>Added control function for exhaust fan of Etcher Laser Pro<br/>Improvement regarding water temperature acquisition of Etcher Laser Pro<br/>Correspondence to change of camera lens specifications of Etcher Laser<br/>Modified the small bug</td>
 <td align="left">
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.3.5/SmartDIYsCreator_offline_installer_mac-v1.3.5.dmg">mac</a>
 /
