@@ -12,7 +12,7 @@
 <tbody>
 
 <tr>
-<td align="left">2021.11.11</td>
+<td align="left">2021.11.12</td>
 <td align="left">v1.4.0</td>
 <td align="left">Compatible with LC950<br/>Addition of scan correction settings<br/>Modified the small bug</td>
 <td align="left">
