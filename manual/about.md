@@ -1,4 +1,4 @@
-SmartDIYs Creator is software for laser processing, compatible with the FABOOL Laser series and Etcher Laser series. This is software that takes in image data, edits the layout, sets laser parameters, and performs processing.
+SmartDIYs Creator is software for laser processing, compatible with the FABOOL Laser series, Etcher Laser series and LC series. This is software that takes in image data, edits the layout, sets laser parameters, and performs processing.
 
 ---
 
@@ -8,7 +8,7 @@ SmartDIYs Creator is software for laser processing, compatible with the FABOOL L
 
 ## Product Specification
 ### Supported products
-FABOOL Laser Mini / FABOOL Laser CO2 / FABOOL Laser DS / Etcher Laser / Etcher Laser Pro
+FABOOL Laser Mini / FABOOL Laser CO2 / FABOOL Laser DS / Etcher Laser / Etcher Laser Pro / LC950
 
 ### Supported files
 png / jpg / bmp / gif / tif / svg / dxf (R12)
