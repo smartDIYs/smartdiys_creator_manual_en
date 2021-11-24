@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2021.11.24</td>
+<td align="left">v1.4.2</td>
+<td align="left">Correction regarding machining position during raster processing<br/>Added clear button of captured images<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.2/SmartDIYsCreator_offline_installer_mac-v1.4.2.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.2/SmartDIYsCreator_offline_installer_win-v1.4.2.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2021.11.16</td>
 <td align="left">v1.4.1</td>
 <td align="left">Correction regarding machining position during raster processing<br/>Improved behavior regarding homing of LC950<br/>Modified the small bug</td>
