@@ -44,6 +44,7 @@ Click an item displayed in the item list to display and set the processing param
 - Redo: Advance the project editing state to the next state.
 - Copy: Copy the selected graphic object to the paste buffer.
 - Paste: Paste the copied graphic object.
+- Paste in Place: Paste the copied graphic object in the same position as the copy source.
 - Delete: Delete the selected item.
 
 ### Selection
