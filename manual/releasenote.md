@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2022.3.22</td>
+<td align="left">v1.4.4</td>
+<td align="left">Added user dictionary folder function<br/>Improved LC950 boundary warning<br/>Add some menu items<br/>Addition of same position paste function<br/>Improvement of UI/UX<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.4/SmartDIYsCreator_offline_installer_mac-v1.4.4.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.4/SmartDIYsCreator_offline_installer_win-v1.4.4.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2021.12.22</td>
 <td align="left">v1.4.3</td>
 <td align="left">Added the processing file export function for LC950<br/>Modified the small bug</td>
