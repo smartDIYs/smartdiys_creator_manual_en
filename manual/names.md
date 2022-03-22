@@ -34,8 +34,10 @@ Click an item displayed in the item list to display and set the processing param
 ### File
 - New Project: Create a new project.
 - Open Project: Open a saved project.
+- Open Recent Project: Open any project from the list of recently used projects.
 - Save Project: Save the currently open project.
 - Save Project As: Save the currently open project as an alias.
+- Add Item: Add items. It has the same function as "Add item" in the Item list.
 
 ### Edit
 - Undo: Restore the project editing state to the previous state.
