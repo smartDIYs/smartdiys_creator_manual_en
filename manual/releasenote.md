@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2022.4.25</td>
+<td align="left">v1.4.5</td>
+<td align="left">Update frameworks<br>Improvement of application crash problem<br/>Improvement of exhaust fan settings of Etcher Laser Pro<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.5/SmartDIYsCreator_offline_installer_mac-v1.4.5.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.4.5/SmartDIYsCreator_offline_installer_win-v1.4.5.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2022.3.22</td>
 <td align="left">v1.4.4</td>
 <td align="left">Added user dictionary folder function<br/>Improved LC950 boundary warning<br/>Addition of same position paste function<br/>Add some file menu items<br/>Improvement of UI/UX<br/>Modified the small bug</td>
