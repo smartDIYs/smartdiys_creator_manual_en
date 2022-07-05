@@ -56,8 +56,9 @@ Click an item displayed in the item list to display and set the processing param
 - Go to Origin: Send an origin return instruction to the processing machine.
 - Create Grid Item: Create the grid displayed on the graphic area as a processing item.
 
-### UserDictionary
+### Parameter
 - UserDictionary Manager: Open the User dictionary manager. You can edit, import / export, etc. the user dictionary.
+- Create Parameter Items: Open the Create Parameter Items dialog. You can create various parameters at once.
 
 ### Setting
 - User Setting: Various settings can be made.
