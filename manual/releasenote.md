@@ -14,7 +14,7 @@
 <tr>
 <td align="left">2022.7.6</td>
 <td align="left">v1.5.0</td>
-<td align="left">Compatible with SC300<br/>Added the function to create parameter items<br/>Added back object selection function<br/>Improved automatic connection performance</td>
+<td align="left">Compatible with SC300<br/>Added the function to create parameter items<br/>Added back object selection function<br/>Change of initial laserparameter value<br/>Improved automatic connection performance</td>
 <td align="left">
 <a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.5.0/SmartDIYsCreator_offline_installer_mac-v1.5.0.dmg">mac</a>
 /
