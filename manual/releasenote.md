@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2022.9.6</td>
+<td align="left">v1.5.1</td>
+<td align="left">Path improvement during cutting process.<br/>Fix the display problem of the estimated processing time<br/>Improvement of UI/UX<br/>Modified the small bug</td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.5.1/SmartDIYsCreator_offline_installer_mac-v1.5.1.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.5.1/SmartDIYsCreator_offline_installer_win-v1.5.1.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2022.7.6</td>
 <td align="left">v1.5.0</td>
 <td align="left">Compatible with SC300<br/>Added the function to create parameter items<br/>Added back object selection function<br/>Change of initial laserparameter value<br/>Improved automatic connection performance</td>
