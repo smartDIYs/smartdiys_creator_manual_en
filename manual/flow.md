@@ -11,18 +11,19 @@ Turn on the processing machine and connect the PC and the processing machine wit
 ### Data import
 First, click the "Add Item" button in the Item List panel, and add a processing item by one of the following methods.
 
-- `Import from local file`  
+- `Import from local file`<br>
 If you want to import your own image data (jpg / png / svg etc), please click "Select File" button. The file selection dialog opens, and you can import it by selecting the target file. You can also import by dragging and dropping the target file into the graphic area.
 
-- `Import from asset catalog`  
+- `Import from asset catalog`<br>
 Click "From Catalog" to use the figures and sample data provided in the software. The asset catalog will open and you can select and import your favorite data.
 
-- `Create text item`  
-Click the "Text Item" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".  
+- `Create text item`<br>
+Click the "Text Item" button to create a processing item of any character. You can create text items with your font. In addition, processing method can be selected from "painting only" "line only" "painting and line".<br>
 ※ We do not cope with vertical writing and line feed.
+※ In Windows, the font size may be affected by the screen's DPI settings.
 
-- `Scan (EtcherLaser only)`  
-Click the "Scan" button to create an item scanned with the camera of machine.  You can select an original image (raster), fill (vector fill), or outline (vector stroke). Be careful not to block or obscure the camera markers.  
+- `Scan (EtcherLaser only)`<br>
+Click the "Scan" button to create an item scanned with the camera of machine.<br>You can select an original image (raster), fill (vector fill), or outline (vector stroke). Be careful not to block or obscure the camera markers.<br>
 ※ The button is disabled when the top cover is closed.
 
 
@@ -32,13 +33,13 @@ Adding an item places a graphic object on the canvas. Set the position, size, an
 ### Parameter settings
 When you click the target item in the item list, the parameter setting window is displayed. Set the parameter in one of the following ways.
 
-- `Manual`  
+- `Manual`<br>
   You can set the processing parameters of the item manually. You can also register the set parameters in the user dictionary.
 
-- `User Dictionary`  
+- `User Dictionary`<br>
   Apply the parameters registered in the user dictionary.
 
-- `Preset`  
+- `Preset`<br>
   It is a parameter prepared in advance. The processing result depends on the characteristics of the actually processing material and the adjustment accuracy of the machine.
 
 ### Processing order setting
@@ -75,7 +76,7 @@ If necessary, please check the processing range for the material. Please use "Ch
 #### FABOOL Series
 - Is the height of the laser head correctly adjusted?
 - Are there any obstacles in the processing area or near the processing machine?
-- Is the base under the material safe from burning?  
+- Is the base under the material safe from burning?<br>
 (Laser light may reach the base depending on the thickness of the material)
 - Is the processing range completely over the material?
 
@@ -83,7 +84,7 @@ If necessary, please check the processing range for the material. Please use "Ch
 - Is the height of the laser head correctly adjusted?
 - Are there any obstacles in the processing area or near the processing machine?
 - Is the bottom plate closed properly?
-- When processing with the bottom open, is the base under the material safe from burning?  
+- When processing with the bottom open, is the base under the material safe from burning?<br>
 (Laser light may reach the base depending on the thickness of the material)
 - Is the processing range completely over the material?
 
