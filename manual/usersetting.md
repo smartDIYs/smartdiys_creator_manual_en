@@ -48,17 +48,20 @@ Specify the line width at preview. By setting the actual laser width, you can ge
 Seek speed: The movement speed when the laser head does not output the laser. Basically, it is the moving speed from the point where the laser output ends to the next laser output start point.
 
 ### Seek speed
-Default mode: Set the seek speed to the specified value.  
-Quality mode: Set the seek speed to the processing speed.  
+Default mode: Set the seek speed to the specified value.<br>
+Quality mode: Set the seek speed to the processing speed.<br>
 ※ During raster processing and hatching processing (during vector painting processing), operations are always performed according to the Quality mode.
 
 ### Seek speed (during maintenance)
 You can set the moving speed of the laser head for position check and range check.
 
 ### Iterative processing (vector stroke)
-If this setting is enabled, the processing order during cutting will be affected.  
-Example: When there are multiple pieces for a single vector item (i.e., a "◯" and a "△" as part of one item), and "Times" is set as 2 or more, the machine will process like items together.  
+If this setting is enabled, the processing order during cutting will be affected.<br>
+Example: When there are multiple pieces for a single vector item (i.e., a "◯" and a "△" as part of one item), and "Times" is set as 2 or more, the machine will process like items together.<br>
 [Enable]: ◯ > ◯ > △ > △  |  [Disable]: ◯ > △ > ◯ > △
+
+### Engraving Direction
+You can set the engraving direction when performing raster processing or vector filling.
 
 ---------------
 ## Correction
@@ -73,11 +76,13 @@ Please use it after making sufficient hardware adjustments.
 ```
 
 ### Size correction
-When converting a figure to G-Code, it will be scaled by the specified ratio in each direction. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
+Scale the shape by the specified percentage in each direction. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
 
 ### X axis tilt correction
-Apply shear to the object when converted to GCode to correct the machine's X-axis tilt. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
+Apply shear to objects to correct X-axis tilt. Enter a negative value to correct if it is tilted to the right. If the object is near the boundary of the machining range, it may touch the limit switch during machining.
 
+### Scan correction
+It reduces the blurring of the contours on the left and right sides during vector filling or raster processing. If the object is near the boundary of the processing range, there is a risk of contacting the limit switch during processing.
 
 <!-- ---------------
 ## パラメータ
