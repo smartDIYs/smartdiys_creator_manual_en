@@ -27,6 +27,12 @@ Perform the following operations to use the user dictionary.
 1. Enter an arbitrary value for each setting value.
 1. When the OK button is pressed, parameter editing is complete.
 
+### Creating a Folder
+1. Open the "UserDictionary" tab in the Parameter Settings window.
+1. Right-click on the parameter list on the left and click "Create Folder."
+1. Enter the folder name and press the OK button to create a folder in the list.
+1. You can move any parameter to the folder by dragging & dropping it.
+
 ## User dictionary manager
 
 <p align="center">
