@@ -12,6 +12,16 @@
 <tbody>
 
 <tr>
+<td align="left">2024.5.10</td>
+<td align="left">v1.6.1</td>
+<td align="left">Add gear ratio change function to HL650R<br/>Improvements processing range warnings for LC/HL<br/>UI/UX improvements<br/>Modified the small bug<br/></td>
+<td align="left">
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.6.1/SmartDIYsCreator_offline_installer_mac-v1.6.1.dmg">mac</a>
+/
+<a href="https://download.smartdiys.com/smartdiyscreator/offline_installer/v1.6.1/SmartDIYsCreator_offline_installer_win-v1.6.1.exe">win</td>
+</tr>
+
+<tr>
 <td align="left">2024.3.14</td>
 <td align="left">v1.6.0</td>
 <td align="left">Compatible with HL650<br/>Added function to set the scanning direction during engraving<br/>Various improvements to scan correction function<br/>UI/UX improvements<br/>Modified the small bug</td>
