@@ -14,7 +14,7 @@ In this processing method, the laser head can be moved along the vector image pa
 
 
 ### How to create data
-You can create data for vector (line) processing by drawing an arbitrary figure with your drawing software and setting the line color.  
+You can create data for vector (line) processing by drawing an arbitrary figure with your drawing software and setting the line color.
 Also, when importing SVG data into software, it is divided into separate items for each color. Therefore, it is possible to adjust the change of processing order by color-coding the lines beforehand.
 ```
 ※ White lines are ignored and should not be white.
@@ -73,7 +73,6 @@ Please adjust the trimming and contrast with your paint software etc.
 
 ```
 ※ Automatically converted to grayscale when importing.
-※ When importing, it is resized to 1023 pixels horizontally.
 ```
 
 <p align="center">
